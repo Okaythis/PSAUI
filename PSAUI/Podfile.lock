@@ -1,0 +1,20 @@
+PODS:
+  - PSACommon (1.0.1):
+    - SAMKeychain
+  - SAMKeychain (1.5.3)
+
+DEPENDENCIES:
+  - PSACommon
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PSACommon
+    - SAMKeychain
+
+SPEC CHECKSUMS:
+  PSACommon: 04a659d02e4454f5e80e7815923f760f9cce36a6
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+
+PODFILE CHECKSUM: eaa6464e38ced06b0a554c6374a3f6c0411367e6
+
+COCOAPODS: 1.5.3
