@@ -19,7 +19,7 @@ s.summary          = 'User Interface for PSA framework'
 
 s.homepage         = 'https://okaythis.com'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Okay This' => 'hello@okaythis.com' }
 s.source           = { :git => 'https://github.com/Okaythis/PSAUI.git', :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
@@ -34,7 +34,7 @@ s.dependency 'PSACommon'
 #   'PSAUI' => ['PSAUI/Assets/*.png']
 # }
 
-# s.public_header_files = 'Pod/Classes/**/*.h'
-# s.frameworks = 'UIKit', 'MapKit'
+s.public_header_files = 'PSAUI/Classes/**/*'
+s.frameworks = 'UIKit'
 # s.dependency 'AFNetworking', '~> 2.3'
 end

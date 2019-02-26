@@ -1,22 +1,28 @@
 {
   "name": "PSAUI",
-  "version": "0.1.0",
-  "summary": "A short description of PSAUI.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/mbulatIT/PSAUI",
+  "version": "0.0.1",
+  "summary": "User Interface for PSA framework",
+  "homepage": "https://okaythis.com",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "mbulatIT": "m.bulat@itransition.com"
+    "Okay This": "hello@okaythis.com"
   },
   "source": {
-    "git": "https://github.com/mbulatIT/PSAUI.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Okaythis/PSAUI.git",
+    "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "PSAUI/Classes/**/*"
+  "source_files": "PSAUI/Classes/**/*",
+  "dependencies": {
+    "PSACommon": [
+
+    ]
+  },
+  "public_header_files": "PSAUI/Classes/**/*",
+  "frameworks": "UIKit"
 }

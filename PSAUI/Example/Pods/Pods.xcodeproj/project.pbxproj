@@ -7,129 +7,179 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C3F4E998F6BE6DBA97B75BF34EAB82C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		51A0C3287E2240695C649A55CFE8B511 /* Pods-PSAUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D786B5793FA3AF1466B7CE0B3741B17 /* Pods-PSAUI_Example-dummy.m */; };
+		0B9FE991255F50E44D29D359DD9AE25A /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AAA04D0D7BEEB006C9E810910796911 /* SAMKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D782F24AA8FABFCA2C6ABBE6C1A55A1 /* PSAKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 547FF7A7F27AD9F07A218C7BB07AD921 /* PSAKeyboardButton.m */; };
+		10E8677BDA2031F23B9595B9E4111395 /* PSAEnrollmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F78FD9E04822614C35C543EFA91D88 /* PSAEnrollmentViewController.m */; };
+		152669A20EC07468D21E825E7D8CEA5E /* PSAAuthInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D098EA4B4926ACEC799112DBBBEDB33F /* PSAAuthInfo.m */; };
+		19E6ECD5BFBC035C9D8EF40E7C9D739F /* Pods-PSAUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D786B5793FA3AF1466B7CE0B3741B17 /* Pods-PSAUI_Example-dummy.m */; };
+		1CD8B2C6BBBCB842CD28543EC689A75E /* PSAUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E30E1348EC1184804D794548EDCCBEB /* PSAUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		216429F25AD8F46887FDEA63EFB03B23 /* PSAKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20FE77704D41A789D2DBAB8C6094A9 /* PSAKeyboard.m */; };
+		2448C7CBAA56D7056D630B44E01593F6 /* Pods-PSAUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB83227D79F6A480C08EAAAB7852E6D2 /* Pods-PSAUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24E52900FE1391D84AA66616850D8E33 /* PSAPinViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B24D9822851F6130368751DD641E3BD /* PSAPinViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28DC6CCADBAC49F5CDEC7AA5CCA2AFFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235DCC4B52D72155E0F3AC6CDD445A13 /* UIKit.framework */; };
+		2C75488A003C33BFDFCF82B07C770D39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E894FAFCE0E73089304CE6BB5CF5FEE5 /* Foundation.framework */; };
+		31B2D4488C3AC8A55CEBAF1DD1270BE3 /* PSAAuthViewController.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = EF41B0DA4C147708B95B88227BC84CA9 /* PSAAuthViewController.storyboard */; };
+		4153C434507DE284DAFFD6650CCFFEB2 /* PSAXIBControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 929EA5B5DB77966B79C551DFAF4F3F7F /* PSAXIBControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		451C1DD01E045F279DB1D90C129505FD /* PSAEnrollmentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A1FAB4910A13D67DBE6B52B19B51E97C /* PSAEnrollmentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A5849F04E7FF60BF4B835606C38923E /* PSAAuthButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2021DD7461C1BADE52186B8D2902AEE0 /* PSAAuthButton.m */; };
+		59F15F482F2B3CF5B3DCC0118AC11A84 /* PSACommitAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9158BD64A216562A8A6BD708B9549723 /* PSACommitAuthViewController.m */; };
+		5DB5CE6AE58115D30608D6D1603F5054 /* PSAAuthInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEDDE1234E17C6F73B259949DDCC60F /* PSAAuthInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60F14A7B36D21392667B5B2B1F021822 /* PSAEnrollmentViewController.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 6CBA70FABD38134BE6A438F40DCF1368 /* PSAEnrollmentViewController.storyboard */; };
 		61AA48F8B1B862BE19AFA953CD22BE16 /* Pods-PSAUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A39C655747C3AB838951D7FB9A9A923B /* Pods-PSAUI_Tests-dummy.m */; };
-		662338E1F138E571F82077668C1E7316 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		698A82C627861248E448945E26062602 /* PSAUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13DE550C9F40B4BE52A4D849B05E771E /* PSAUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EEF04F1040DDD13CBFC7F6CF7A1FEDE /* Pods-PSAUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB83227D79F6A480C08EAAAB7852E6D2 /* Pods-PSAUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		926360D1EDDE1451B3C01229B4908111 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		95899C2922259AB000C9FE9D /* PSAKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95899C1322259AAE00C9FE9D /* PSAKeyboard.xib */; };
-		95899C2A22259AB000C9FE9D /* PSAKeyboardButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C1422259AAE00C9FE9D /* PSAKeyboardButton.h */; };
-		95899C2B22259AB000C9FE9D /* PSAKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 95899C1522259AAF00C9FE9D /* PSAKeyboardButton.m */; };
-		95899C2C22259AB000C9FE9D /* PSAPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95899C1622259AAF00C9FE9D /* PSAPinViewController.m */; };
-		95899C2D22259AB000C9FE9D /* PSASecurityProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C1722259AAF00C9FE9D /* PSASecurityProtocol.h */; };
-		95899C2E22259AB000C9FE9D /* PSACommitAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95899C1822259AAF00C9FE9D /* PSACommitAuthViewController.m */; };
-		95899C2F22259AB000C9FE9D /* PSAAuthButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C1922259AAF00C9FE9D /* PSAAuthButton.h */; };
-		95899C3022259AB000C9FE9D /* PSAAuthInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C1A22259AAF00C9FE9D /* PSAAuthInfo.h */; };
-		95899C3122259AB000C9FE9D /* PSAAuthInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 95899C1B22259AAF00C9FE9D /* PSAAuthInfo.m */; };
-		95899C3222259AB000C9FE9D /* PSAKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C1C22259AAF00C9FE9D /* PSAKeyboard.h */; };
-		95899C3322259AB000C9FE9D /* PSAAuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95899C1D22259AAF00C9FE9D /* PSAAuthViewController.storyboard */; };
-		95899C3422259AB000C9FE9D /* PSAEnrollmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95899C1E22259AAF00C9FE9D /* PSAEnrollmentViewController.m */; };
-		95899C3522259AB000C9FE9D /* PSACommitAuthViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C1F22259AAF00C9FE9D /* PSACommitAuthViewController.h */; };
-		95899C3622259AB000C9FE9D /* PSAPinViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C2022259AAF00C9FE9D /* PSAPinViewController.h */; };
-		95899C3722259AB000C9FE9D /* PSAEnrollmentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95899C2122259AAF00C9FE9D /* PSAEnrollmentViewController.storyboard */; };
-		95899C3822259AB000C9FE9D /* PSAXIBControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C2222259AAF00C9FE9D /* PSAXIBControl.h */; };
-		95899C3922259AB000C9FE9D /* PSAXIBControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 95899C2322259AAF00C9FE9D /* PSAXIBControl.m */; };
-		95899C3A22259AB000C9FE9D /* PSAEnrollmentControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C2422259AAF00C9FE9D /* PSAEnrollmentControllerDelegate.h */; };
-		95899C3B22259AB000C9FE9D /* PSAEnrollmentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C2522259AAF00C9FE9D /* PSAEnrollmentViewController.h */; };
-		95899C3C22259AB000C9FE9D /* PSAAuthInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95899C2622259AAF00C9FE9D /* PSAAuthInfo.xib */; };
-		95899C3D22259AB000C9FE9D /* PSAAuthButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 95899C2722259AAF00C9FE9D /* PSAAuthButton.m */; };
-		95899C3E22259AB000C9FE9D /* PSAKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 95899C2822259AB000C9FE9D /* PSAKeyboard.m */; };
-		A6314579E087261B9833AED8FBF35C54 /* PSAUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D0248EE5D06A278463992114ADDD2 /* PSAUI-dummy.m */; };
+		6F064163B5D0BB3756A261CA518C011A /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D4B8BB5198D70D5BEDEBA677EF8C4F /* SAMKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7E79032D95FB3F8938098B51C99C5542 /* SAMKeychain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BE466369ADEFBD60A1B778380D8C059 /* SAMKeychain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89BBB59E5D07BF87B3FC59A79001793F /* PSAKeyboardButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D154F5A10411786C5AA268DAA073522C /* PSAKeyboardButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91879B972123EF8C9DF606E00C5DC746 /* PSAPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35E2E54DD750A5CE1A0C41A5EA4053A /* PSAPinViewController.m */; };
+		926360D1EDDE1451B3C01229B4908111 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E894FAFCE0E73089304CE6BB5CF5FEE5 /* Foundation.framework */; };
+		9D5244C526D5AF89731F573997B76B1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E894FAFCE0E73089304CE6BB5CF5FEE5 /* Foundation.framework */; };
+		AEDAAE81CF030EA66ADECF26DE385C15 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67947F53EE4A22FFCFE738A93F55CF74 /* SAMKeychain.framework */; };
+		B41F847AE9A20C52F8356D4A48F9E1ED /* SAMKeychain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DE0C7A383EBDD0AB8B0DB05E588747E8 /* SAMKeychain.bundle */; };
+		B9FDCE8D9AE47251D2F6A5FFABFFF24F /* PSAAuthInfo.xib in Sources */ = {isa = PBXBuildFile; fileRef = 05C7FEF3A494A5EA9103878C6E831758 /* PSAAuthInfo.xib */; };
+		BC13BD5545C3F6B4F03289B7E7A02536 /* PSAUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBAE3ABB188001FD991CD2AA8C720AF /* PSAUI-dummy.m */; };
+		C037B8F655B344CE14E47E6A48ACC6BE /* PSAAuthButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B236058AE1E3904575B205D61135A09F /* PSAAuthButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A578282ECE8227366E8784814864AA /* SAMKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C5811B75DAF05ED38B2B8C31098421 /* SAMKeychain-dummy.m */; };
+		C1C11FDD94A635003952CF451C59770E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E894FAFCE0E73089304CE6BB5CF5FEE5 /* Foundation.framework */; };
+		D8455077B1F694CFA3F8CA9B9F0EA386 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15664BD50E546C6D296510F89CAC19DB /* Security.framework */; };
+		DB1C65D3F20B617AAC1BE09ABF0EDFB5 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC95D652643F5D17C3DC8AF862FCBDD /* SAMKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DD19256A514A26FB842260B91E964E42 /* PSASecurityProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A065AF268F4AC273F253E30D0DCBCD1 /* PSASecurityProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5A3FDCD21E2FE73F8957BEAA1FECA61 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D741FD10841ADDA94EC4C0FDD7FE38 /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDD4186D653A5B859C6FFF4A302603CB /* Pods-PSAUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59827322C8050F97712FB266E20389C2 /* Pods-PSAUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE1787BA9F2FB4034DD1E4E2FE21758D /* PSAKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 33C66735CF493CEAB8F4222A7B44A8EE /* PSAKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F528AEA80B8503C2A4CCEBB63589D30D /* PSACommitAuthViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EF4AC446DA9C4E60BF1D511355202B /* PSACommitAuthViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FADE40101315AF77BF0696F6788F1F5F /* PSAKeyboard.xib in Sources */ = {isa = PBXBuildFile; fileRef = 26E707A18F7FA58EF012524F6C5076DE /* PSAKeyboard.xib */; };
+		FE4355AB74253B052EAE5C8359551C18 /* PSAXIBControl.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9FDAB4B8A63BEF957D59DDDBA816E7 /* PSAXIBControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		04D361D64B942B8E7D2553BBDC2CC116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDFB6004BAD4A1BD5603C17D045E1D58;
+			remoteInfo = PSAUI;
+		};
 		41ACD28C1C0D5032712B0AF67FE7A1C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9ED766B576969595FA3F423173049B20;
+			remoteGlobalIDString = 313531FC2709603BC29781CEFD9926C9;
 			remoteInfo = "Pods-PSAUI_Example";
 		};
-		654DA03E80DB95BFD232FB6B24CF928F /* PBXContainerItemProxy */ = {
+		C8263AF1488A51B8A2B3199B37796F2C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6A9808D4B1024ABC9B3F767C3AAF677E;
-			remoteInfo = PSAUI;
+			remoteGlobalIDString = E08661E93A080372D0AE6CBE7D2CE0B5;
+			remoteInfo = SAMKeychain;
+		};
+		D9EE1FC878C1BC56643AC3CA73D9B4B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E08661E93A080372D0AE6CBE7D2CE0B5;
+			remoteInfo = SAMKeychain;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		058892F6F7C4A57214821DCA00CA0FDE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		0A8FEA675DFAAA530EB2251880B89562 /* PSAUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PSAUI.modulemap; sourceTree = "<group>"; };
+		05C7FEF3A494A5EA9103878C6E831758 /* PSAAuthInfo.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PSAAuthInfo.xib; path = PSAUI/Classes/PSAAuthInfo.xib; sourceTree = "<group>"; };
+		0A065AF268F4AC273F253E30D0DCBCD1 /* PSASecurityProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSASecurityProtocol.h; path = PSAUI/Classes/PSASecurityProtocol.h; sourceTree = "<group>"; };
+		0AAA04D0D7BEEB006C9E810910796911 /* SAMKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychain.h; path = Sources/SAMKeychain.h; sourceTree = "<group>"; };
 		0B6A0F835AA7EFAE1B9A53AF63D93471 /* Pods-PSAUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSAUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0BFF1759979BD263FE60082AC7BBECEF /* PSAUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PSAUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		13DE550C9F40B4BE52A4D849B05E771E /* PSAUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSAUI-umbrella.h"; sourceTree = "<group>"; };
+		15664BD50E546C6D296510F89CAC19DB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		182AAF1E55B0DD0D2D796F1EAE19F4A8 /* Pods-PSAUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSAUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1AC95D652643F5D17C3DC8AF862FCBDD /* SAMKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychain.m; path = Sources/SAMKeychain.m; sourceTree = "<group>"; };
+		1BE466369ADEFBD60A1B778380D8C059 /* SAMKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-umbrella.h"; sourceTree = "<group>"; };
 		1D2AFE468D78E332BD0A5A0BEA560B98 /* Pods-PSAUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSAUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1DCBD866BA48874CB27BB64685F2F461 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2021DD7461C1BADE52186B8D2902AEE0 /* PSAAuthButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSAAuthButton.m; path = PSAUI/Classes/PSAAuthButton.m; sourceTree = "<group>"; };
+		235DCC4B52D72155E0F3AC6CDD445A13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		26BA420D6DBC7EEAF1FA92F4AD049491 /* Pods-PSAUI_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSAUI_Example-resources.sh"; sourceTree = "<group>"; };
+		26E707A18F7FA58EF012524F6C5076DE /* PSAKeyboard.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PSAKeyboard.xib; path = PSAUI/Classes/PSAKeyboard.xib; sourceTree = "<group>"; };
 		2C28ECF135BA56CE58E42B74FFB63D9E /* Pods-PSAUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSAUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2C3D0248EE5D06A278463992114ADDD2 /* PSAUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PSAUI-dummy.m"; sourceTree = "<group>"; };
 		2D786B5793FA3AF1466B7CE0B3741B17 /* Pods-PSAUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSAUI_Example-dummy.m"; sourceTree = "<group>"; };
+		3353AAB7459990E46BF1F7F145612DB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		33731FB6F30720F9FC6F4F0ED40E48F4 /* Pods-PSAUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSAUI_Example.modulemap"; sourceTree = "<group>"; };
-		34ACFFC610BBE0CD22E99439A53E5311 /* PSAUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSAUI-prefix.pch"; sourceTree = "<group>"; };
-		35F1303C1EDFFDEFF3CE9A6B117C30D8 /* Pods_PSAUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSAUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C66735CF493CEAB8F4222A7B44A8EE /* PSAKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSAKeyboard.h; path = PSAUI/Classes/PSAKeyboard.h; sourceTree = "<group>"; };
+		37B346086F69CB072775CBB8B7474B91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38EF4AC446DA9C4E60BF1D511355202B /* PSACommitAuthViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSACommitAuthViewController.h; path = PSAUI/Classes/PSACommitAuthViewController.h; sourceTree = "<group>"; };
+		3B24D9822851F6130368751DD641E3BD /* PSAPinViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSAPinViewController.h; path = PSAUI/Classes/PSAPinViewController.h; sourceTree = "<group>"; };
+		3C067C65B208755B6917E7125CFEAC59 /* SAMKeychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SAMKeychain.modulemap; sourceTree = "<group>"; };
+		3E30E1348EC1184804D794548EDCCBEB /* PSAUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSAUI-umbrella.h"; sourceTree = "<group>"; };
+		40B2DC61A3301E41A4FAAC4B4FC7513A /* PSAUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PSAUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		547FF7A7F27AD9F07A218C7BB07AD921 /* PSAKeyboardButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSAKeyboardButton.m; path = PSAUI/Classes/PSAKeyboardButton.m; sourceTree = "<group>"; };
 		54E039D4F8D697F5D1A3469F47698997 /* Pods-PSAUI_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSAUI_Tests-resources.sh"; sourceTree = "<group>"; };
+		56F78FD9E04822614C35C543EFA91D88 /* PSAEnrollmentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSAEnrollmentViewController.m; path = PSAUI/Classes/PSAEnrollmentViewController.m; sourceTree = "<group>"; };
 		59827322C8050F97712FB266E20389C2 /* Pods-PSAUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSAUI_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C367F86CB28B40D72D654F40517C01B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5DE73D9B8D10275F462C41B9A978410F /* Pods_PSAUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PSAUI_Example.framework; path = "Pods-PSAUI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67947F53EE4A22FFCFE738A93F55CF74 /* SAMKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAMKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBAE3ABB188001FD991CD2AA8C720AF /* PSAUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PSAUI-dummy.m"; sourceTree = "<group>"; };
+		6CBA70FABD38134BE6A438F40DCF1368 /* PSAEnrollmentViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = PSAEnrollmentViewController.storyboard; path = PSAUI/Classes/PSAEnrollmentViewController.storyboard; sourceTree = "<group>"; };
 		7B1C087BD89597A41B49CF385B737DAB /* Pods-PSAUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSAUI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7DD6398BB70C1F57E5D7E9F1FFB68FBC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D4B8BB5198D70D5BEDEBA677EF8C4F /* SAMKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychainQuery.m; path = Sources/SAMKeychainQuery.m; sourceTree = "<group>"; };
+		817821DFCF6CEA0982DB3E2BDB2BF8F0 /* PSACommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PSACommon.framework; sourceTree = "<group>"; };
 		826822AE4CCF1D959960F8B23D098919 /* Pods-PSAUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSAUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		87D741FD10841ADDA94EC4C0FDD7FE38 /* SAMKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychainQuery.h; path = Sources/SAMKeychainQuery.h; sourceTree = "<group>"; };
 		8C0C10552DAF83CB71C7F11C2EE867EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9074C11E16C66E60BD2FE535ABC218B6 /* Pods-PSAUI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSAUI_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95899C1322259AAE00C9FE9D /* PSAKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PSAKeyboard.xib; path = PSAUI/Classes/PSAKeyboard.xib; sourceTree = "<group>"; };
-		95899C1422259AAE00C9FE9D /* PSAKeyboardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAKeyboardButton.h; path = PSAUI/Classes/PSAKeyboardButton.h; sourceTree = "<group>"; };
-		95899C1522259AAF00C9FE9D /* PSAKeyboardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSAKeyboardButton.m; path = PSAUI/Classes/PSAKeyboardButton.m; sourceTree = "<group>"; };
-		95899C1622259AAF00C9FE9D /* PSAPinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSAPinViewController.m; path = PSAUI/Classes/PSAPinViewController.m; sourceTree = "<group>"; };
-		95899C1722259AAF00C9FE9D /* PSASecurityProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSASecurityProtocol.h; path = PSAUI/Classes/PSASecurityProtocol.h; sourceTree = "<group>"; };
-		95899C1822259AAF00C9FE9D /* PSACommitAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSACommitAuthViewController.m; path = PSAUI/Classes/PSACommitAuthViewController.m; sourceTree = "<group>"; };
-		95899C1922259AAF00C9FE9D /* PSAAuthButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAAuthButton.h; path = PSAUI/Classes/PSAAuthButton.h; sourceTree = "<group>"; };
-		95899C1A22259AAF00C9FE9D /* PSAAuthInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAAuthInfo.h; path = PSAUI/Classes/PSAAuthInfo.h; sourceTree = "<group>"; };
-		95899C1B22259AAF00C9FE9D /* PSAAuthInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSAAuthInfo.m; path = PSAUI/Classes/PSAAuthInfo.m; sourceTree = "<group>"; };
-		95899C1C22259AAF00C9FE9D /* PSAKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAKeyboard.h; path = PSAUI/Classes/PSAKeyboard.h; sourceTree = "<group>"; };
-		95899C1D22259AAF00C9FE9D /* PSAAuthViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PSAAuthViewController.storyboard; path = PSAUI/Classes/PSAAuthViewController.storyboard; sourceTree = "<group>"; };
-		95899C1E22259AAF00C9FE9D /* PSAEnrollmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSAEnrollmentViewController.m; path = PSAUI/Classes/PSAEnrollmentViewController.m; sourceTree = "<group>"; };
-		95899C1F22259AAF00C9FE9D /* PSACommitAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSACommitAuthViewController.h; path = PSAUI/Classes/PSACommitAuthViewController.h; sourceTree = "<group>"; };
-		95899C2022259AAF00C9FE9D /* PSAPinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAPinViewController.h; path = PSAUI/Classes/PSAPinViewController.h; sourceTree = "<group>"; };
-		95899C2122259AAF00C9FE9D /* PSAEnrollmentViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PSAEnrollmentViewController.storyboard; path = PSAUI/Classes/PSAEnrollmentViewController.storyboard; sourceTree = "<group>"; };
-		95899C2222259AAF00C9FE9D /* PSAXIBControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAXIBControl.h; path = PSAUI/Classes/PSAXIBControl.h; sourceTree = "<group>"; };
-		95899C2322259AAF00C9FE9D /* PSAXIBControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSAXIBControl.m; path = PSAUI/Classes/PSAXIBControl.m; sourceTree = "<group>"; };
-		95899C2422259AAF00C9FE9D /* PSAEnrollmentControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAEnrollmentControllerDelegate.h; path = PSAUI/Classes/PSAEnrollmentControllerDelegate.h; sourceTree = "<group>"; };
-		95899C2522259AAF00C9FE9D /* PSAEnrollmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAEnrollmentViewController.h; path = PSAUI/Classes/PSAEnrollmentViewController.h; sourceTree = "<group>"; };
-		95899C2622259AAF00C9FE9D /* PSAAuthInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PSAAuthInfo.xib; path = PSAUI/Classes/PSAAuthInfo.xib; sourceTree = "<group>"; };
-		95899C2722259AAF00C9FE9D /* PSAAuthButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSAAuthButton.m; path = PSAUI/Classes/PSAAuthButton.m; sourceTree = "<group>"; };
-		95899C2822259AB000C9FE9D /* PSAKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSAKeyboard.m; path = PSAUI/Classes/PSAKeyboard.m; sourceTree = "<group>"; };
+		9158BD64A216562A8A6BD708B9549723 /* PSACommitAuthViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSACommitAuthViewController.m; path = PSAUI/Classes/PSACommitAuthViewController.m; sourceTree = "<group>"; };
+		929EA5B5DB77966B79C551DFAF4F3F7F /* PSAXIBControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSAXIBControl.h; path = PSAUI/Classes/PSAXIBControl.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BE575303B8D7A83CCC0EF4FABBC473B /* Pods-PSAUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSAUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9CEDDE1234E17C6F73B259949DDCC60F /* PSAAuthInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSAAuthInfo.h; path = PSAUI/Classes/PSAAuthInfo.h; sourceTree = "<group>"; };
 		9E5981BE43B4462B5E40525DB631A280 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1FAB4910A13D67DBE6B52B19B51E97C /* PSAEnrollmentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSAEnrollmentViewController.h; path = PSAUI/Classes/PSAEnrollmentViewController.h; sourceTree = "<group>"; };
+		A27D603865F49B886117BF38C0521902 /* PSAUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSAUI.xcconfig; sourceTree = "<group>"; };
 		A39C655747C3AB838951D7FB9A9A923B /* Pods-PSAUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSAUI_Tests-dummy.m"; sourceTree = "<group>"; };
-		A99C98631CD97491F91292A8DA14D1A2 /* Pods_PSAUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSAUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A422C931426677F17A85EBB8D0A03E05 /* SAMKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.xcconfig; sourceTree = "<group>"; };
+		B0C2E2A22D8E0A50C110C11B6E19EA70 /* PSAUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PSAUI.framework; path = PSAUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B236058AE1E3904575B205D61135A09F /* PSAAuthButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSAAuthButton.h; path = PSAUI/Classes/PSAAuthButton.h; sourceTree = "<group>"; };
+		B3C5811B75DAF05ED38B2B8C31098421 /* SAMKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMKeychain-dummy.m"; sourceTree = "<group>"; };
 		B4F25B93DA77BEDAE1FA1B1C3638826F /* Pods-PSAUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSAUI_Tests.modulemap"; sourceTree = "<group>"; };
-		BCCB9A29D028F0C5F86CF48CE2585866 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D02CF382303252A78162BB297D4947BF /* PSAUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSAUI.xcconfig; sourceTree = "<group>"; };
+		B626B24CDDC24F6C9275AD6B07F46A42 /* SAMKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SAMKeychain.framework; path = SAMKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63021E4DD988E8B707ABA95CB24E219 /* Pods_PSAUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PSAUI_Tests.framework; path = "Pods-PSAUI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF98FC377C51A643C8875330DA285F9 /* PSAUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSAUI-prefix.pch"; sourceTree = "<group>"; };
+		BD20FE77704D41A789D2DBAB8C6094A9 /* PSAKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSAKeyboard.m; path = PSAUI/Classes/PSAKeyboard.m; sourceTree = "<group>"; };
+		D098EA4B4926ACEC799112DBBBEDB33F /* PSAAuthInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSAAuthInfo.m; path = PSAUI/Classes/PSAAuthInfo.m; sourceTree = "<group>"; };
+		D154F5A10411786C5AA268DAA073522C /* PSAKeyboardButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSAKeyboardButton.h; path = PSAUI/Classes/PSAKeyboardButton.h; sourceTree = "<group>"; };
 		D819F2A7F2FD4E8FB8F772AE372D7F35 /* Pods-PSAUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSAUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DA1137BBBD3FF7D6D7D61B2579215A27 /* Pods-PSAUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSAUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE0C7A383EBDD0AB8B0DB05E588747E8 /* SAMKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SAMKeychain.bundle; path = Support/SAMKeychain.bundle; sourceTree = "<group>"; };
+		E151474D3F35DCDFF45CB2CB565931D5 /* SAMKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-prefix.pch"; sourceTree = "<group>"; };
+		E1DD3D623BBD5D2FCBC071AF65CB8CE7 /* PSAUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PSAUI.modulemap; sourceTree = "<group>"; };
+		E894FAFCE0E73089304CE6BB5CF5FEE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EB83227D79F6A480C08EAAAB7852E6D2 /* Pods-PSAUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSAUI_Example-umbrella.h"; sourceTree = "<group>"; };
-		FE0DCEF79893F2E39A36270E9D671B6C /* PSAUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PSAUI.podspec; sourceTree = "<group>"; };
+		EE9FDAB4B8A63BEF957D59DDDBA816E7 /* PSAXIBControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSAXIBControl.m; path = PSAUI/Classes/PSAXIBControl.m; sourceTree = "<group>"; };
+		EF41B0DA4C147708B95B88227BC84CA9 /* PSAAuthViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = PSAAuthViewController.storyboard; path = PSAUI/Classes/PSAAuthViewController.storyboard; sourceTree = "<group>"; };
+		F35E2E54DD750A5CE1A0C41A5EA4053A /* PSAPinViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSAPinViewController.m; path = PSAUI/Classes/PSAPinViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		239642F1B9EBDC8F2B511921A7DA27E1 /* Frameworks */ = {
+		1C4304E6D3D662F4E454FD1C96A194E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				662338E1F138E571F82077668C1E7316 /* Foundation.framework in Frameworks */,
+				2C75488A003C33BFDFCF82B07C770D39 /* Foundation.framework in Frameworks */,
+				AEDAAE81CF030EA66ADECF26DE385C15 /* SAMKeychain.framework in Frameworks */,
+				28DC6CCADBAC49F5CDEC7AA5CCA2AFFA /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B4B01D2B4BDACA00905CAAE40AE58B2 /* Frameworks */ = {
+		6A6650ACA9265046F9B45BB5D696AA46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C3F4E998F6BE6DBA97B75BF34EAB82C /* Foundation.framework in Frameworks */,
+				C1C11FDD94A635003952CF451C59770E /* Foundation.framework in Frameworks */,
+				D8455077B1F694CFA3F8CA9B9F0EA386 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B294404D5B0CFC71489F7C32F699A3F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5244C526D5AF89731F573997B76B1D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,18 +194,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14C95EC2E5C82C45289C3404378B6F72 /* Support Files */ = {
+		165E15743B5DA24E82FB78A7E40CB90E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1DCBD866BA48874CB27BB64685F2F461 /* Info.plist */,
-				0A8FEA675DFAAA530EB2251880B89562 /* PSAUI.modulemap */,
-				D02CF382303252A78162BB297D4947BF /* PSAUI.xcconfig */,
-				2C3D0248EE5D06A278463992114ADDD2 /* PSAUI-dummy.m */,
-				34ACFFC610BBE0CD22E99439A53E5311 /* PSAUI-prefix.pch */,
-				13DE550C9F40B4BE52A4D849B05E771E /* PSAUI-umbrella.h */,
+				67947F53EE4A22FFCFE738A93F55CF74 /* SAMKeychain.framework */,
+				1A0DBDD0FABB4BBB4AE6983E900B7F35 /* iOS */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PSAUI";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A0DBDD0FABB4BBB4AE6983E900B7F35 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E894FAFCE0E73089304CE6BB5CF5FEE5 /* Foundation.framework */,
+				15664BD50E546C6D296510F89CAC19DB /* Security.framework */,
+				235DCC4B52D72155E0F3AC6CDD445A13 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2861CE71AB08FA11DE29B3D07BCB0C66 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C303D9C765766724014DFA2CA2C5734F /* PSAUI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		28D3266C2F1E467AF19F03B086C836F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DE73D9B8D10275F462C41B9A978410F /* Pods_PSAUI_Example.framework */,
+				B63021E4DD988E8B707ABA95CB24E219 /* Pods_PSAUI_Tests.framework */,
+				B0C2E2A22D8E0A50C110C11B6E19EA70 /* PSAUI.framework */,
+				B626B24CDDC24F6C9275AD6B07F46A42 /* SAMKeychain.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DB63E9CD624A54ECC7C34AC19FDB3A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				817821DFCF6CEA0982DB3E2BDB2BF8F0 /* PSACommon.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5967D7390BAEDFB687020D60BA4CCF3A /* Targets Support Files */ = {
@@ -165,14 +247,6 @@
 				5F4427208DF0DE68BB74BA459F6CD333 /* Pods-PSAUI_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		5F4427208DF0DE68BB74BA459F6CD333 /* Pods-PSAUI_Tests */ = {
@@ -193,83 +267,125 @@
 			path = "Target Support Files/Pods-PSAUI_Tests";
 			sourceTree = "<group>";
 		};
-		6214E8642D7A712706A9077F8252C710 /* PSAUI */ = {
+		5F933C5C8B6503A250D88D05F9A1FA3A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				95899C1922259AAF00C9FE9D /* PSAAuthButton.h */,
-				95899C2722259AAF00C9FE9D /* PSAAuthButton.m */,
-				95899C1A22259AAF00C9FE9D /* PSAAuthInfo.h */,
-				95899C1B22259AAF00C9FE9D /* PSAAuthInfo.m */,
-				95899C2622259AAF00C9FE9D /* PSAAuthInfo.xib */,
-				95899C1D22259AAF00C9FE9D /* PSAAuthViewController.storyboard */,
-				95899C1F22259AAF00C9FE9D /* PSACommitAuthViewController.h */,
-				95899C1822259AAF00C9FE9D /* PSACommitAuthViewController.m */,
-				95899C2422259AAF00C9FE9D /* PSAEnrollmentControllerDelegate.h */,
-				95899C2522259AAF00C9FE9D /* PSAEnrollmentViewController.h */,
-				95899C1E22259AAF00C9FE9D /* PSAEnrollmentViewController.m */,
-				95899C2122259AAF00C9FE9D /* PSAEnrollmentViewController.storyboard */,
-				95899C1C22259AAF00C9FE9D /* PSAKeyboard.h */,
-				95899C2822259AB000C9FE9D /* PSAKeyboard.m */,
-				95899C1322259AAE00C9FE9D /* PSAKeyboard.xib */,
-				95899C1422259AAE00C9FE9D /* PSAKeyboardButton.h */,
-				95899C1522259AAF00C9FE9D /* PSAKeyboardButton.m */,
-				95899C2022259AAF00C9FE9D /* PSAPinViewController.h */,
-				95899C1622259AAF00C9FE9D /* PSAPinViewController.m */,
-				95899C1722259AAF00C9FE9D /* PSASecurityProtocol.h */,
-				95899C2222259AAF00C9FE9D /* PSAXIBControl.h */,
-				95899C2322259AAF00C9FE9D /* PSAXIBControl.m */,
-				F16CD9BE31B7AA020472D652428CC64B /* Pod */,
-				14C95EC2E5C82C45289C3404378B6F72 /* Support Files */,
+				7DD6398BB70C1F57E5D7E9F1FFB68FBC /* Info.plist */,
+				E1DD3D623BBD5D2FCBC071AF65CB8CE7 /* PSAUI.modulemap */,
+				A27D603865F49B886117BF38C0521902 /* PSAUI.xcconfig */,
+				6BBAE3ABB188001FD991CD2AA8C720AF /* PSAUI-dummy.m */,
+				BAF98FC377C51A643C8875330DA285F9 /* PSAUI-prefix.pch */,
+				3E30E1348EC1184804D794548EDCCBEB /* PSAUI-umbrella.h */,
 			);
-			name = PSAUI;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PSAUI";
+			sourceTree = "<group>";
+		};
+		76C16623A4EB506D5D35A919361A75D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37B346086F69CB072775CBB8B7474B91 /* Info.plist */,
+				3C067C65B208755B6917E7125CFEAC59 /* SAMKeychain.modulemap */,
+				A422C931426677F17A85EBB8D0A03E05 /* SAMKeychain.xcconfig */,
+				B3C5811B75DAF05ED38B2B8C31098421 /* SAMKeychain-dummy.m */,
+				E151474D3F35DCDFF45CB2CB565931D5 /* SAMKeychain-prefix.pch */,
+				1BE466369ADEFBD60A1B778380D8C059 /* SAMKeychain-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAMKeychain";
+			sourceTree = "<group>";
+		};
+		799A5D093B60FD7FAC9D0942268DB419 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE0C7A383EBDD0AB8B0DB05E588747E8 /* SAMKeychain.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				C2AC980FC172F137963787AB9143BA45 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D245E1411B5499DD2F031421ED769AF0 /* Products */,
+				2861CE71AB08FA11DE29B3D07BCB0C66 /* Development Pods */,
+				165E15743B5DA24E82FB78A7E40CB90E /* Frameworks */,
+				A6BA4FE979B7960360911558EFFD48C1 /* Pods */,
+				28D3266C2F1E467AF19F03B086C836F5 /* Products */,
 				5967D7390BAEDFB687020D60BA4CCF3A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A6BA4FE979B7960360911558EFFD48C1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				A9E1422B6903CF4CA082F03E10B6F1C9 /* PSACommon */,
+				F3B36A2AA31687AA0594839F1B500130 /* SAMKeychain */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		C2AC980FC172F137963787AB9143BA45 /* Development Pods */ = {
+		A9E1422B6903CF4CA082F03E10B6F1C9 /* PSACommon */ = {
 			isa = PBXGroup;
 			children = (
-				6214E8642D7A712706A9077F8252C710 /* PSAUI */,
+				3DB63E9CD624A54ECC7C34AC19FDB3A0 /* Frameworks */,
 			);
-			name = "Development Pods";
+			name = PSACommon;
+			path = PSACommon;
 			sourceTree = "<group>";
 		};
-		D245E1411B5499DD2F031421ED769AF0 /* Products */ = {
+		BFCCC5ECCCB3A162D72BD2045E10592A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				35F1303C1EDFFDEFF3CE9A6B117C30D8 /* Pods_PSAUI_Example.framework */,
-				A99C98631CD97491F91292A8DA14D1A2 /* Pods_PSAUI_Tests.framework */,
-				0BFF1759979BD263FE60082AC7BBECEF /* PSAUI.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F16CD9BE31B7AA020472D652428CC64B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				058892F6F7C4A57214821DCA00CA0FDE /* LICENSE */,
-				FE0DCEF79893F2E39A36270E9D671B6C /* PSAUI.podspec */,
-				BCCB9A29D028F0C5F86CF48CE2585866 /* README.md */,
+				5C367F86CB28B40D72D654F40517C01B /* LICENSE */,
+				40B2DC61A3301E41A4FAAC4B4FC7513A /* PSAUI.podspec */,
+				3353AAB7459990E46BF1F7F145612DB8 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		C303D9C765766724014DFA2CA2C5734F /* PSAUI */ = {
+			isa = PBXGroup;
+			children = (
+				B236058AE1E3904575B205D61135A09F /* PSAAuthButton.h */,
+				2021DD7461C1BADE52186B8D2902AEE0 /* PSAAuthButton.m */,
+				9CEDDE1234E17C6F73B259949DDCC60F /* PSAAuthInfo.h */,
+				D098EA4B4926ACEC799112DBBBEDB33F /* PSAAuthInfo.m */,
+				05C7FEF3A494A5EA9103878C6E831758 /* PSAAuthInfo.xib */,
+				EF41B0DA4C147708B95B88227BC84CA9 /* PSAAuthViewController.storyboard */,
+				38EF4AC446DA9C4E60BF1D511355202B /* PSACommitAuthViewController.h */,
+				9158BD64A216562A8A6BD708B9549723 /* PSACommitAuthViewController.m */,
+				A1FAB4910A13D67DBE6B52B19B51E97C /* PSAEnrollmentViewController.h */,
+				56F78FD9E04822614C35C543EFA91D88 /* PSAEnrollmentViewController.m */,
+				6CBA70FABD38134BE6A438F40DCF1368 /* PSAEnrollmentViewController.storyboard */,
+				33C66735CF493CEAB8F4222A7B44A8EE /* PSAKeyboard.h */,
+				BD20FE77704D41A789D2DBAB8C6094A9 /* PSAKeyboard.m */,
+				26E707A18F7FA58EF012524F6C5076DE /* PSAKeyboard.xib */,
+				D154F5A10411786C5AA268DAA073522C /* PSAKeyboardButton.h */,
+				547FF7A7F27AD9F07A218C7BB07AD921 /* PSAKeyboardButton.m */,
+				3B24D9822851F6130368751DD641E3BD /* PSAPinViewController.h */,
+				F35E2E54DD750A5CE1A0C41A5EA4053A /* PSAPinViewController.m */,
+				0A065AF268F4AC273F253E30D0DCBCD1 /* PSASecurityProtocol.h */,
+				929EA5B5DB77966B79C551DFAF4F3F7F /* PSAXIBControl.h */,
+				EE9FDAB4B8A63BEF957D59DDDBA816E7 /* PSAXIBControl.m */,
+				BFCCC5ECCCB3A162D72BD2045E10592A /* Pod */,
+				5F933C5C8B6503A250D88D05F9A1FA3A /* Support Files */,
+			);
+			name = PSAUI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F3B36A2AA31687AA0594839F1B500130 /* SAMKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				0AAA04D0D7BEEB006C9E810910796911 /* SAMKeychain.h */,
+				1AC95D652643F5D17C3DC8AF862FCBDD /* SAMKeychain.m */,
+				87D741FD10841ADDA94EC4C0FDD7FE38 /* SAMKeychainQuery.h */,
+				80D4B8BB5198D70D5BEDEBA677EF8C4F /* SAMKeychainQuery.m */,
+				799A5D093B60FD7FAC9D0942268DB419 /* Resources */,
+				76C16623A4EB506D5D35A919361A75D4 /* Support Files */,
+			);
+			name = SAMKeychain;
+			path = SAMKeychain;
 			sourceTree = "<group>";
 		};
 		F4533C67D4A5B0DB60E8321BBB7B60F7 /* Pods-PSAUI_Example */ = {
@@ -293,29 +409,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AD2897FC2FECA584A153520DC3131CE6 /* Headers */ = {
+		0928BFDCCA2ADC548C43BAD648CE1F46 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EEF04F1040DDD13CBFC7F6CF7A1FEDE /* Pods-PSAUI_Example-umbrella.h in Headers */,
+				C037B8F655B344CE14E47E6A48ACC6BE /* PSAAuthButton.h in Headers */,
+				5DB5CE6AE58115D30608D6D1603F5054 /* PSAAuthInfo.h in Headers */,
+				F528AEA80B8503C2A4CCEBB63589D30D /* PSACommitAuthViewController.h in Headers */,
+				451C1DD01E045F279DB1D90C129505FD /* PSAEnrollmentViewController.h in Headers */,
+				EE1787BA9F2FB4034DD1E4E2FE21758D /* PSAKeyboard.h in Headers */,
+				89BBB59E5D07BF87B3FC59A79001793F /* PSAKeyboardButton.h in Headers */,
+				24E52900FE1391D84AA66616850D8E33 /* PSAPinViewController.h in Headers */,
+				DD19256A514A26FB842260B91E964E42 /* PSASecurityProtocol.h in Headers */,
+				1CD8B2C6BBBCB842CD28543EC689A75E /* PSAUI-umbrella.h in Headers */,
+				4153C434507DE284DAFFD6650CCFFEB2 /* PSAXIBControl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E336FD3B0AF8E4D9EEA62CB026E066DB /* Headers */ = {
+		C7B743BAEA85D36CC3121A1966CBD2D0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95899C2A22259AB000C9FE9D /* PSAKeyboardButton.h in Headers */,
-				698A82C627861248E448945E26062602 /* PSAUI-umbrella.h in Headers */,
-				95899C3A22259AB000C9FE9D /* PSAEnrollmentControllerDelegate.h in Headers */,
-				95899C2D22259AB000C9FE9D /* PSASecurityProtocol.h in Headers */,
-				95899C3822259AB000C9FE9D /* PSAXIBControl.h in Headers */,
-				95899C2F22259AB000C9FE9D /* PSAAuthButton.h in Headers */,
-				95899C3522259AB000C9FE9D /* PSACommitAuthViewController.h in Headers */,
-				95899C3222259AB000C9FE9D /* PSAKeyboard.h in Headers */,
-				95899C3B22259AB000C9FE9D /* PSAEnrollmentViewController.h in Headers */,
-				95899C3622259AB000C9FE9D /* PSAPinViewController.h in Headers */,
-				95899C3022259AB000C9FE9D /* PSAAuthInfo.h in Headers */,
+				7E79032D95FB3F8938098B51C99C5542 /* SAMKeychain-umbrella.h in Headers */,
+				0B9FE991255F50E44D29D359DD9AE25A /* SAMKeychain.h in Headers */,
+				E5A3FDCD21E2FE73F8957BEAA1FECA61 /* SAMKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DC971F2793273AB81C9AE54417DC10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2448C7CBAA56D7056D630B44E01593F6 /* Pods-PSAUI_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,22 +455,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6A9808D4B1024ABC9B3F767C3AAF677E /* PSAUI */ = {
+		313531FC2709603BC29781CEFD9926C9 /* Pods-PSAUI_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB2399A2D40BA5177A7FD025E5A9BC69 /* Build configuration list for PBXNativeTarget "PSAUI" */;
+			buildConfigurationList = 4E71EF04A8F3D9FD3FBA2DA0E0A900C3 /* Build configuration list for PBXNativeTarget "Pods-PSAUI_Example" */;
 			buildPhases = (
-				E336FD3B0AF8E4D9EEA62CB026E066DB /* Headers */,
-				4768103C1AD869F018C0BA4E42B7BBF1 /* Sources */,
-				239642F1B9EBDC8F2B511921A7DA27E1 /* Frameworks */,
-				A95E89CF587A5F61CC3F66A8E51ABE0F /* Resources */,
+				D3DC971F2793273AB81C9AE54417DC10 /* Headers */,
+				C29CDEAEC1032B979BC0BC3B430AC858 /* Sources */,
+				B294404D5B0CFC71489F7C32F699A3F6 /* Frameworks */,
+				7C3C6F03F612A922A2F1ECBCB100046E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A4E83170314255EA80325A1558CF8E30 /* PBXTargetDependency */,
+				161E984280404CAAA943AC32E6B9FF9A /* PBXTargetDependency */,
 			);
-			name = PSAUI;
-			productName = PSAUI;
-			productReference = 0BFF1759979BD263FE60082AC7BBECEF /* PSAUI.framework */;
+			name = "Pods-PSAUI_Example";
+			productName = "Pods-PSAUI_Example";
+			productReference = 5DE73D9B8D10275F462C41B9A978410F /* Pods_PSAUI_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8D699AEE63DCA0E3F9D7916B7FDB286B /* Pods-PSAUI_Tests */ = {
@@ -364,26 +491,44 @@
 			);
 			name = "Pods-PSAUI_Tests";
 			productName = "Pods-PSAUI_Tests";
-			productReference = A99C98631CD97491F91292A8DA14D1A2 /* Pods_PSAUI_Tests.framework */;
+			productReference = B63021E4DD988E8B707ABA95CB24E219 /* Pods_PSAUI_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		9ED766B576969595FA3F423173049B20 /* Pods-PSAUI_Example */ = {
+		E08661E93A080372D0AE6CBE7D2CE0B5 /* SAMKeychain */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F83D3037835D12194DE33A15C597967D /* Build configuration list for PBXNativeTarget "Pods-PSAUI_Example" */;
+			buildConfigurationList = 5EDD6FD9525F3BEA6EE70D1EF9B6E51D /* Build configuration list for PBXNativeTarget "SAMKeychain" */;
 			buildPhases = (
-				AD2897FC2FECA584A153520DC3131CE6 /* Headers */,
-				9E540051AF63436E008205221BE093A4 /* Sources */,
-				8B4B01D2B4BDACA00905CAAE40AE58B2 /* Frameworks */,
-				8406D883A57A818CCD3F83567684714E /* Resources */,
+				C7B743BAEA85D36CC3121A1966CBD2D0 /* Headers */,
+				E696598DE6CCE47626462BDA26BA9253 /* Sources */,
+				6A6650ACA9265046F9B45BB5D696AA46 /* Frameworks */,
+				13E14A80F1DA696B1500D5B9ED8A97FF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E1C218574CDC024F62A340484AA5BF23 /* PBXTargetDependency */,
 			);
-			name = "Pods-PSAUI_Example";
-			productName = "Pods-PSAUI_Example";
-			productReference = 35F1303C1EDFFDEFF3CE9A6B117C30D8 /* Pods_PSAUI_Example.framework */;
+			name = SAMKeychain;
+			productName = SAMKeychain;
+			productReference = B626B24CDDC24F6C9275AD6B07F46A42 /* SAMKeychain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FDFB6004BAD4A1BD5603C17D045E1D58 /* PSAUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B479B41E66F9F62741CD99000EFCAE2 /* Build configuration list for PBXNativeTarget "PSAUI" */;
+			buildPhases = (
+				0928BFDCCA2ADC548C43BAD648CE1F46 /* Headers */,
+				E0D91AF446713D3501B39B56E7E26AA8 /* Sources */,
+				1C4304E6D3D662F4E454FD1C96A194E4 /* Frameworks */,
+				FE7025FB3C2D71BD1CE08FA0BB75F3A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D4988F2B67124FE58694C0341530FB0 /* PBXTargetDependency */,
+			);
+			name = PSAUI;
+			productName = PSAUI;
+			productReference = B0C2E2A22D8E0A50C110C11B6E19EA70 /* PSAUI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -403,19 +548,28 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D245E1411B5499DD2F031421ED769AF0 /* Products */;
+			productRefGroup = 28D3266C2F1E467AF19F03B086C836F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9ED766B576969595FA3F423173049B20 /* Pods-PSAUI_Example */,
+				313531FC2709603BC29781CEFD9926C9 /* Pods-PSAUI_Example */,
 				8D699AEE63DCA0E3F9D7916B7FDB286B /* Pods-PSAUI_Tests */,
-				6A9808D4B1024ABC9B3F767C3AAF677E /* PSAUI */,
+				FDFB6004BAD4A1BD5603C17D045E1D58 /* PSAUI */,
+				E08661E93A080372D0AE6CBE7D2CE0B5 /* SAMKeychain */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8406D883A57A818CCD3F83567684714E /* Resources */ = {
+		13E14A80F1DA696B1500D5B9ED8A97FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41F847AE9A20C52F8356D4A48F9E1ED /* SAMKeychain.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C3C6F03F612A922A2F1ECBCB100046E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -429,14 +583,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A95E89CF587A5F61CC3F66A8E51ABE0F /* Resources */ = {
+		FE7025FB3C2D71BD1CE08FA0BB75F3A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95899C3322259AB000C9FE9D /* PSAAuthViewController.storyboard in Resources */,
-				95899C3722259AB000C9FE9D /* PSAEnrollmentViewController.storyboard in Resources */,
-				95899C3C22259AB000C9FE9D /* PSAAuthInfo.xib in Resources */,
-				95899C2922259AB000C9FE9D /* PSAKeyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,53 +601,144 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4768103C1AD869F018C0BA4E42B7BBF1 /* Sources */ = {
+		C29CDEAEC1032B979BC0BC3B430AC858 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6314579E087261B9833AED8FBF35C54 /* PSAUI-dummy.m in Sources */,
-				95899C3E22259AB000C9FE9D /* PSAKeyboard.m in Sources */,
-				95899C3922259AB000C9FE9D /* PSAXIBControl.m in Sources */,
-				95899C2B22259AB000C9FE9D /* PSAKeyboardButton.m in Sources */,
-				95899C2E22259AB000C9FE9D /* PSACommitAuthViewController.m in Sources */,
-				95899C3D22259AB000C9FE9D /* PSAAuthButton.m in Sources */,
-				95899C3422259AB000C9FE9D /* PSAEnrollmentViewController.m in Sources */,
-				95899C2C22259AB000C9FE9D /* PSAPinViewController.m in Sources */,
-				95899C3122259AB000C9FE9D /* PSAAuthInfo.m in Sources */,
+				19E6ECD5BFBC035C9D8EF40E7C9D739F /* Pods-PSAUI_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E540051AF63436E008205221BE093A4 /* Sources */ = {
+		E0D91AF446713D3501B39B56E7E26AA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51A0C3287E2240695C649A55CFE8B511 /* Pods-PSAUI_Example-dummy.m in Sources */,
+				4A5849F04E7FF60BF4B835606C38923E /* PSAAuthButton.m in Sources */,
+				152669A20EC07468D21E825E7D8CEA5E /* PSAAuthInfo.m in Sources */,
+				B9FDCE8D9AE47251D2F6A5FFABFFF24F /* PSAAuthInfo.xib in Sources */,
+				31B2D4488C3AC8A55CEBAF1DD1270BE3 /* PSAAuthViewController.storyboard in Sources */,
+				59F15F482F2B3CF5B3DCC0118AC11A84 /* PSACommitAuthViewController.m in Sources */,
+				10E8677BDA2031F23B9595B9E4111395 /* PSAEnrollmentViewController.m in Sources */,
+				60F14A7B36D21392667B5B2B1F021822 /* PSAEnrollmentViewController.storyboard in Sources */,
+				216429F25AD8F46887FDEA63EFB03B23 /* PSAKeyboard.m in Sources */,
+				FADE40101315AF77BF0696F6788F1F5F /* PSAKeyboard.xib in Sources */,
+				0D782F24AA8FABFCA2C6ABBE6C1A55A1 /* PSAKeyboardButton.m in Sources */,
+				91879B972123EF8C9DF606E00C5DC746 /* PSAPinViewController.m in Sources */,
+				BC13BD5545C3F6B4F03289B7E7A02536 /* PSAUI-dummy.m in Sources */,
+				FE4355AB74253B052EAE5C8359551C18 /* PSAXIBControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E696598DE6CCE47626462BDA26BA9253 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A578282ECE8227366E8784814864AA /* SAMKeychain-dummy.m in Sources */,
+				DB1C65D3F20B617AAC1BE09ABF0EDFB5 /* SAMKeychain.m in Sources */,
+				6F064163B5D0BB3756A261CA518C011A /* SAMKeychainQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		161E984280404CAAA943AC32E6B9FF9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMKeychain;
+			target = E08661E93A080372D0AE6CBE7D2CE0B5 /* SAMKeychain */;
+			targetProxy = D9EE1FC878C1BC56643AC3CA73D9B4B8 /* PBXContainerItemProxy */;
+		};
+		4D4988F2B67124FE58694C0341530FB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMKeychain;
+			target = E08661E93A080372D0AE6CBE7D2CE0B5 /* SAMKeychain */;
+			targetProxy = C8263AF1488A51B8A2B3199B37796F2C /* PBXContainerItemProxy */;
+		};
 		87C5AC27FEBEBCDC5AE703ED6500728F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PSAUI_Example";
-			target = 9ED766B576969595FA3F423173049B20 /* Pods-PSAUI_Example */;
+			target = 313531FC2709603BC29781CEFD9926C9 /* Pods-PSAUI_Example */;
 			targetProxy = 41ACD28C1C0D5032712B0AF67FE7A1C6 /* PBXContainerItemProxy */;
 		};
-		E1C218574CDC024F62A340484AA5BF23 /* PBXTargetDependency */ = {
+		A4E83170314255EA80325A1558CF8E30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PSAUI;
-			target = 6A9808D4B1024ABC9B3F767C3AAF677E /* PSAUI */;
-			targetProxy = 654DA03E80DB95BFD232FB6B24CF928F /* PBXContainerItemProxy */;
+			target = FDFB6004BAD4A1BD5603C17D045E1D58 /* PSAUI */;
+			targetProxy = 04D361D64B942B8E7D2553BBDC2CC116 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2FD97ADB4C59BC6B18B7B3BBAF009839 /* Release */ = {
+		0D7A0E3737D21F15533F035FA57F4F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A422C931426677F17A85EBB8D0A03E05 /* SAMKeychain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAMKeychain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SAMKeychain/SAMKeychain.modulemap";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17331AC6CDFCF15B4323708FEFE3EEC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D2AFE468D78E332BD0A5A0BEA560B98 /* Pods-PSAUI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSAUI_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSAUI_Example/Pods-PSAUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32C1C221A7CE80B70CE4CAB18A7C4891 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9BE575303B8D7A83CCC0EF4FABBC473B /* Pods-PSAUI_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -509,7 +750,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PSAUI_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PSAUI_Tests/Pods-PSAUI_Tests.modulemap";
@@ -527,11 +768,43 @@
 			};
 			name = Release;
 		};
-		63563C615FDA43E6EFD56C24C635A47A /* Release */ = {
+		58F356FB9BEA57EA0F670E93C83B769F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A422C931426677F17A85EBB8D0A03E05 /* SAMKeychain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAMKeychain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SAMKeychain/SAMKeychain.modulemap";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AE84FA5157A117ACA67D0F2B07976C1B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D819F2A7F2FD4E8FB8F772AE372D7F35 /* Pods-PSAUI_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -543,7 +816,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PSAUI_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PSAUI_Example/Pods-PSAUI_Example.modulemap";
@@ -561,10 +834,11 @@
 			};
 			name = Release;
 		};
-		660297E11EE6D6C2ADA943525654A6EE /* Debug */ = {
+		B0D689E16FDADF7B009E2F7BC78DB29B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D02CF382303252A78162BB297D4947BF /* PSAUI.xcconfig */;
+			baseConfigurationReference = A27D603865F49B886117BF38C0521902 /* PSAUI.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -577,7 +851,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PSAUI/PSAUI-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PSAUI/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PSAUI/PSAUI.modulemap";
 				PRODUCT_MODULE_NAME = PSAUI;
@@ -591,70 +865,12 @@
 			};
 			name = Debug;
 		};
-		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		9F3BEFE7A39F7975122C7C82ABA83135 /* Debug */ = {
+		C64DA83FCE47EF7215EBC1FC6E0DD9C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2C28ECF135BA56CE58E42B74FFB63D9E /* Pods-PSAUI_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -666,7 +882,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-PSAUI_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PSAUI_Tests/Pods-PSAUI_Tests.modulemap";
@@ -683,10 +899,11 @@
 			};
 			name = Debug;
 		};
-		D10B04D7343FF212E1287FE6A7F8D17C /* Release */ = {
+		C922F896A5E9296CBAD7CB1EA125273E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D02CF382303252A78162BB297D4947BF /* PSAUI.xcconfig */;
+			baseConfigurationReference = A27D603865F49B886117BF38C0521902 /* PSAUI.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -699,7 +916,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PSAUI/PSAUI-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PSAUI/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PSAUI/PSAUI.modulemap";
 				PRODUCT_MODULE_NAME = PSAUI;
@@ -714,7 +931,7 @@
 			};
 			name = Release;
 		};
-		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
+		C92782E717C52E3633C9A5F211E7987A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -767,7 +984,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -778,38 +995,64 @@
 			};
 			name = Debug;
 		};
-		F6E572086228DE57B8EDB812E2D308B2 /* Debug */ = {
+		EA8C7AF90938697605468604B2A17B9F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D2AFE468D78E332BD0A5A0BEA560B98 /* Pods-PSAUI_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PSAUI_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PSAUI_Example/Pods-PSAUI_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -817,8 +1060,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
-				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
+				C92782E717C52E3633C9A5F211E7987A /* Debug */,
+				EA8C7AF90938697605468604B2A17B9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -826,26 +1069,35 @@
 		2E45A515379CA9AD70803FC7F4DCC84E /* Build configuration list for PBXNativeTarget "Pods-PSAUI_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F3BEFE7A39F7975122C7C82ABA83135 /* Debug */,
-				2FD97ADB4C59BC6B18B7B3BBAF009839 /* Release */,
+				C64DA83FCE47EF7215EBC1FC6E0DD9C5 /* Debug */,
+				32C1C221A7CE80B70CE4CAB18A7C4891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB2399A2D40BA5177A7FD025E5A9BC69 /* Build configuration list for PBXNativeTarget "PSAUI" */ = {
+		4E71EF04A8F3D9FD3FBA2DA0E0A900C3 /* Build configuration list for PBXNativeTarget "Pods-PSAUI_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				660297E11EE6D6C2ADA943525654A6EE /* Debug */,
-				D10B04D7343FF212E1287FE6A7F8D17C /* Release */,
+				17331AC6CDFCF15B4323708FEFE3EEC6 /* Debug */,
+				AE84FA5157A117ACA67D0F2B07976C1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F83D3037835D12194DE33A15C597967D /* Build configuration list for PBXNativeTarget "Pods-PSAUI_Example" */ = {
+		5EDD6FD9525F3BEA6EE70D1EF9B6E51D /* Build configuration list for PBXNativeTarget "SAMKeychain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6E572086228DE57B8EDB812E2D308B2 /* Debug */,
-				63563C615FDA43E6EFD56C24C635A47A /* Release */,
+				0D7A0E3737D21F15533F035FA57F4F9C /* Debug */,
+				58F356FB9BEA57EA0F670E93C83B769F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B479B41E66F9F62741CD99000EFCAE2 /* Build configuration list for PBXNativeTarget "PSAUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D689E16FDADF7B009E2F7BC78DB29B /* Debug */,
+				C922F896A5E9296CBAD7CB1EA125273E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
