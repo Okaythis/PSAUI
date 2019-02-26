@@ -26,14 +26,15 @@ s.source           = { :git => 'https://github.com/Okaythis/PSAUI.git', :tag => 
 
 s.ios.deployment_target = '10.0'
 
-s.source_files = 'PSAUI/PSAUI/Classes/**/*'
+s.source_files = 'PSAUI/PSAUI/Classes/**/*.{h,m}'
 
 s.dependency 'PSACommon'
 
  s.resource_bundles = {
-     'PSAUI' => ['PSAUI/PSAUI/Assets/*.pdf']
+     'PSAUI' => ['PSAUI/PSAUI/Assets/*',
+     'Pod/Classes/**/*.{xib,storyboard}',
+     'PSAUI/PSAUI/Classes/**/*.{xib,storyboard}']
  }
-
 s.public_header_files = 'PSAUI/PSAUI/Classes/**/*'
 s.frameworks = 'UIKit'
 # s.dependency 'AFNetworking', '~> 2.3'
