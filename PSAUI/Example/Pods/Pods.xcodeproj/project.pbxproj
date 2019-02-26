@@ -31,6 +31,7 @@
 		89BBB59E5D07BF87B3FC59A79001793F /* PSAKeyboardButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D154F5A10411786C5AA268DAA073522C /* PSAKeyboardButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91879B972123EF8C9DF606E00C5DC746 /* PSAPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35E2E54DD750A5CE1A0C41A5EA4053A /* PSAPinViewController.m */; };
 		926360D1EDDE1451B3C01229B4908111 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E894FAFCE0E73089304CE6BB5CF5FEE5 /* Foundation.framework */; };
+		95935EB72225B966001BCB64 /* PSAUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 95935EB62225B966001BCB64 /* PSAUI.h */; };
 		9D5244C526D5AF89731F573997B76B1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E894FAFCE0E73089304CE6BB5CF5FEE5 /* Foundation.framework */; };
 		AEDAAE81CF030EA66ADECF26DE385C15 /* SAMKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67947F53EE4A22FFCFE738A93F55CF74 /* SAMKeychain.framework */; };
 		B41F847AE9A20C52F8356D4A48F9E1ED /* SAMKeychain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DE0C7A383EBDD0AB8B0DB05E588747E8 /* SAMKeychain.bundle */; };
@@ -126,6 +127,7 @@
 		9158BD64A216562A8A6BD708B9549723 /* PSACommitAuthViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSACommitAuthViewController.m; path = PSAUI/Classes/PSACommitAuthViewController.m; sourceTree = "<group>"; };
 		929EA5B5DB77966B79C551DFAF4F3F7F /* PSAXIBControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSAXIBControl.h; path = PSAUI/Classes/PSAXIBControl.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95935EB62225B966001BCB64 /* PSAUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAUI.h; path = ../../Desktop/PSAUI/PSAUI/PSAUI.h; sourceTree = "<group>"; };
 		9BE575303B8D7A83CCC0EF4FABBC473B /* Pods-PSAUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSAUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9CEDDE1234E17C6F73B259949DDCC60F /* PSAAuthInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSAAuthInfo.h; path = PSAUI/Classes/PSAAuthInfo.h; sourceTree = "<group>"; };
 		9E5981BE43B4462B5E40525DB631A280 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -355,6 +357,7 @@
 				9158BD64A216562A8A6BD708B9549723 /* PSACommitAuthViewController.m */,
 				A1FAB4910A13D67DBE6B52B19B51E97C /* PSAEnrollmentViewController.h */,
 				56F78FD9E04822614C35C543EFA91D88 /* PSAEnrollmentViewController.m */,
+				95935EB62225B966001BCB64 /* PSAUI.h */,
 				6CBA70FABD38134BE6A438F40DCF1368 /* PSAEnrollmentViewController.storyboard */,
 				33C66735CF493CEAB8F4222A7B44A8EE /* PSAKeyboard.h */,
 				BD20FE77704D41A789D2DBAB8C6094A9 /* PSAKeyboard.m */,
@@ -415,6 +418,7 @@
 				5DB5CE6AE58115D30608D6D1603F5054 /* PSAAuthInfo.h in Headers */,
 				F528AEA80B8503C2A4CCEBB63589D30D /* PSACommitAuthViewController.h in Headers */,
 				451C1DD01E045F279DB1D90C129505FD /* PSAEnrollmentViewController.h in Headers */,
+				95935EB72225B966001BCB64 /* PSAUI.h in Headers */,
 				EE1787BA9F2FB4034DD1E4E2FE21758D /* PSAKeyboard.h in Headers */,
 				89BBB59E5D07BF87B3FC59A79001793F /* PSAKeyboardButton.h in Headers */,
 				24E52900FE1391D84AA66616850D8E33 /* PSAPinViewController.h in Headers */,
