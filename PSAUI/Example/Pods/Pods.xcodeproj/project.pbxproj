@@ -97,7 +97,7 @@
 		26E707A18F7FA58EF012524F6C5076DE /* PSAKeyboard.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PSAKeyboard.xib; path = PSAUI/Classes/PSAKeyboard.xib; sourceTree = "<group>"; };
 		2C28ECF135BA56CE58E42B74FFB63D9E /* Pods-PSAUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSAUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D786B5793FA3AF1466B7CE0B3741B17 /* Pods-PSAUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSAUI_Example-dummy.m"; sourceTree = "<group>"; };
-		3353AAB7459990E46BF1F7F145612DB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3353AAB7459990E46BF1F7F145612DB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		33731FB6F30720F9FC6F4F0ED40E48F4 /* Pods-PSAUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSAUI_Example.modulemap"; sourceTree = "<group>"; };
 		33C66735CF493CEAB8F4222A7B44A8EE /* PSAKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSAKeyboard.h; path = PSAUI/Classes/PSAKeyboard.h; sourceTree = "<group>"; };
 		37B346086F69CB072775CBB8B7474B91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,13 +105,13 @@
 		3B24D9822851F6130368751DD641E3BD /* PSAPinViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSAPinViewController.h; path = PSAUI/Classes/PSAPinViewController.h; sourceTree = "<group>"; };
 		3C067C65B208755B6917E7125CFEAC59 /* SAMKeychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SAMKeychain.modulemap; sourceTree = "<group>"; };
 		3E30E1348EC1184804D794548EDCCBEB /* PSAUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSAUI-umbrella.h"; sourceTree = "<group>"; };
-		40B2DC61A3301E41A4FAAC4B4FC7513A /* PSAUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PSAUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		40B2DC61A3301E41A4FAAC4B4FC7513A /* PSAUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PSAUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		547FF7A7F27AD9F07A218C7BB07AD921 /* PSAKeyboardButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSAKeyboardButton.m; path = PSAUI/Classes/PSAKeyboardButton.m; sourceTree = "<group>"; };
 		54E039D4F8D697F5D1A3469F47698997 /* Pods-PSAUI_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSAUI_Tests-resources.sh"; sourceTree = "<group>"; };
 		56F78FD9E04822614C35C543EFA91D88 /* PSAEnrollmentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSAEnrollmentViewController.m; path = PSAUI/Classes/PSAEnrollmentViewController.m; sourceTree = "<group>"; };
 		59827322C8050F97712FB266E20389C2 /* Pods-PSAUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSAUI_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5C367F86CB28B40D72D654F40517C01B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		5DE73D9B8D10275F462C41B9A978410F /* Pods_PSAUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PSAUI_Example.framework; path = "Pods-PSAUI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C367F86CB28B40D72D654F40517C01B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5DE73D9B8D10275F462C41B9A978410F /* Pods_PSAUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSAUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67947F53EE4A22FFCFE738A93F55CF74 /* SAMKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAMKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BBAE3ABB188001FD991CD2AA8C720AF /* PSAUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PSAUI-dummy.m"; sourceTree = "<group>"; };
 		6CBA70FABD38134BE6A438F40DCF1368 /* PSAEnrollmentViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = PSAEnrollmentViewController.storyboard; path = PSAUI/Classes/PSAEnrollmentViewController.storyboard; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 		9074C11E16C66E60BD2FE535ABC218B6 /* Pods-PSAUI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSAUI_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		9158BD64A216562A8A6BD708B9549723 /* PSACommitAuthViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSACommitAuthViewController.m; path = PSAUI/Classes/PSACommitAuthViewController.m; sourceTree = "<group>"; };
 		929EA5B5DB77966B79C551DFAF4F3F7F /* PSAXIBControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSAXIBControl.h; path = PSAUI/Classes/PSAXIBControl.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BE575303B8D7A83CCC0EF4FABBC473B /* Pods-PSAUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSAUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9CEDDE1234E17C6F73B259949DDCC60F /* PSAAuthInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSAAuthInfo.h; path = PSAUI/Classes/PSAAuthInfo.h; sourceTree = "<group>"; };
 		9E5981BE43B4462B5E40525DB631A280 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -133,12 +133,12 @@
 		A27D603865F49B886117BF38C0521902 /* PSAUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSAUI.xcconfig; sourceTree = "<group>"; };
 		A39C655747C3AB838951D7FB9A9A923B /* Pods-PSAUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSAUI_Tests-dummy.m"; sourceTree = "<group>"; };
 		A422C931426677F17A85EBB8D0A03E05 /* SAMKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.xcconfig; sourceTree = "<group>"; };
-		B0C2E2A22D8E0A50C110C11B6E19EA70 /* PSAUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PSAUI.framework; path = PSAUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C2E2A22D8E0A50C110C11B6E19EA70 /* PSAUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PSAUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B236058AE1E3904575B205D61135A09F /* PSAAuthButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSAAuthButton.h; path = PSAUI/Classes/PSAAuthButton.h; sourceTree = "<group>"; };
 		B3C5811B75DAF05ED38B2B8C31098421 /* SAMKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMKeychain-dummy.m"; sourceTree = "<group>"; };
 		B4F25B93DA77BEDAE1FA1B1C3638826F /* Pods-PSAUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSAUI_Tests.modulemap"; sourceTree = "<group>"; };
-		B626B24CDDC24F6C9275AD6B07F46A42 /* SAMKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SAMKeychain.framework; path = SAMKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B63021E4DD988E8B707ABA95CB24E219 /* Pods_PSAUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PSAUI_Tests.framework; path = "Pods-PSAUI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B626B24CDDC24F6C9275AD6B07F46A42 /* SAMKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAMKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63021E4DD988E8B707ABA95CB24E219 /* Pods_PSAUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSAUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF98FC377C51A643C8875330DA285F9 /* PSAUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSAUI-prefix.pch"; sourceTree = "<group>"; };
 		BD20FE77704D41A789D2DBAB8C6094A9 /* PSAKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSAKeyboard.m; path = PSAUI/Classes/PSAKeyboard.m; sourceTree = "<group>"; };
 		D098EA4B4926ACEC799112DBBBEDB33F /* PSAAuthInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PSAAuthInfo.m; path = PSAUI/Classes/PSAAuthInfo.m; sourceTree = "<group>"; };
@@ -329,7 +329,6 @@
 			children = (
 				3DB63E9CD624A54ECC7C34AC19FDB3A0 /* Frameworks */,
 			);
-			name = PSACommon;
 			path = PSACommon;
 			sourceTree = "<group>";
 		};
@@ -384,7 +383,6 @@
 				799A5D093B60FD7FAC9D0942268DB419 /* Resources */,
 				76C16623A4EB506D5D35A919361A75D4 /* Support Files */,
 			);
-			name = SAMKeychain;
 			path = SAMKeychain;
 			sourceTree = "<group>";
 		};
@@ -539,6 +537,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					FDFB6004BAD4A1BD5603C17D045E1D58 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -838,6 +841,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A27D603865F49B886117BF38C0521902 /* PSAUI.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -859,6 +863,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -903,6 +909,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A27D603865F49B886117BF38C0521902 /* PSAUI.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -924,6 +931,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

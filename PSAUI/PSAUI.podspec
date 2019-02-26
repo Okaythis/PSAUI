@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'PSAUI'
-s.version          = '0.0.1'
+s.version          = '0.0.1.1'
 s.summary          = 'User Interface for PSA framework'
 
 # This description is used to generate tags and improve search results.
@@ -26,15 +26,15 @@ s.source           = { :git => 'https://github.com/Okaythis/PSAUI.git', :tag => 
 
 s.ios.deployment_target = '10.0'
 
-s.source_files = 'PSAUI/Classes/**/*'
+s.source_files = 'PSAUI/PSAUI/Classes/**/*'
 
 s.dependency 'PSACommon'
 
-# s.resource_bundles = {
-#   'PSAUI' => ['PSAUI/Assets/*.png']
-# }
+ s.resource_bundles = {
+     'PSAUI' => ['PSAUI/PSAUI/Assets/*.pdf']
+ }
 
-s.public_header_files = 'PSAUI/Classes/**/*'
+s.public_header_files = 'PSAUI/PSAUI/Classes/**/*'
 s.frameworks = 'UIKit'
 # s.dependency 'AFNetworking', '~> 2.3'
 end
