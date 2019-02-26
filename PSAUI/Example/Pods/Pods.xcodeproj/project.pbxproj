@@ -14,8 +14,29 @@
 		698A82C627861248E448945E26062602 /* PSAUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13DE550C9F40B4BE52A4D849B05E771E /* PSAUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EEF04F1040DDD13CBFC7F6CF7A1FEDE /* Pods-PSAUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB83227D79F6A480C08EAAAB7852E6D2 /* Pods-PSAUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		926360D1EDDE1451B3C01229B4908111 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		95899C2922259AB000C9FE9D /* PSAKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95899C1322259AAE00C9FE9D /* PSAKeyboard.xib */; };
+		95899C2A22259AB000C9FE9D /* PSAKeyboardButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C1422259AAE00C9FE9D /* PSAKeyboardButton.h */; };
+		95899C2B22259AB000C9FE9D /* PSAKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 95899C1522259AAF00C9FE9D /* PSAKeyboardButton.m */; };
+		95899C2C22259AB000C9FE9D /* PSAPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95899C1622259AAF00C9FE9D /* PSAPinViewController.m */; };
+		95899C2D22259AB000C9FE9D /* PSASecurityProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C1722259AAF00C9FE9D /* PSASecurityProtocol.h */; };
+		95899C2E22259AB000C9FE9D /* PSACommitAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95899C1822259AAF00C9FE9D /* PSACommitAuthViewController.m */; };
+		95899C2F22259AB000C9FE9D /* PSAAuthButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C1922259AAF00C9FE9D /* PSAAuthButton.h */; };
+		95899C3022259AB000C9FE9D /* PSAAuthInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C1A22259AAF00C9FE9D /* PSAAuthInfo.h */; };
+		95899C3122259AB000C9FE9D /* PSAAuthInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 95899C1B22259AAF00C9FE9D /* PSAAuthInfo.m */; };
+		95899C3222259AB000C9FE9D /* PSAKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C1C22259AAF00C9FE9D /* PSAKeyboard.h */; };
+		95899C3322259AB000C9FE9D /* PSAAuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95899C1D22259AAF00C9FE9D /* PSAAuthViewController.storyboard */; };
+		95899C3422259AB000C9FE9D /* PSAEnrollmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95899C1E22259AAF00C9FE9D /* PSAEnrollmentViewController.m */; };
+		95899C3522259AB000C9FE9D /* PSACommitAuthViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C1F22259AAF00C9FE9D /* PSACommitAuthViewController.h */; };
+		95899C3622259AB000C9FE9D /* PSAPinViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C2022259AAF00C9FE9D /* PSAPinViewController.h */; };
+		95899C3722259AB000C9FE9D /* PSAEnrollmentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95899C2122259AAF00C9FE9D /* PSAEnrollmentViewController.storyboard */; };
+		95899C3822259AB000C9FE9D /* PSAXIBControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C2222259AAF00C9FE9D /* PSAXIBControl.h */; };
+		95899C3922259AB000C9FE9D /* PSAXIBControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 95899C2322259AAF00C9FE9D /* PSAXIBControl.m */; };
+		95899C3A22259AB000C9FE9D /* PSAEnrollmentControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C2422259AAF00C9FE9D /* PSAEnrollmentControllerDelegate.h */; };
+		95899C3B22259AB000C9FE9D /* PSAEnrollmentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 95899C2522259AAF00C9FE9D /* PSAEnrollmentViewController.h */; };
+		95899C3C22259AB000C9FE9D /* PSAAuthInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95899C2622259AAF00C9FE9D /* PSAAuthInfo.xib */; };
+		95899C3D22259AB000C9FE9D /* PSAAuthButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 95899C2722259AAF00C9FE9D /* PSAAuthButton.m */; };
+		95899C3E22259AB000C9FE9D /* PSAKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 95899C2822259AB000C9FE9D /* PSAKeyboard.m */; };
 		A6314579E087261B9833AED8FBF35C54 /* PSAUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D0248EE5D06A278463992114ADDD2 /* PSAUI-dummy.m */; };
-		D3E3539CEF6AE07837DC93386DF4DE3F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 569B2F340831C1B1DD0367D8A3256395 /* ReplaceMe.m */; };
 		EDD4186D653A5B859C6FFF4A302603CB /* Pods-PSAUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59827322C8050F97712FB266E20389C2 /* Pods-PSAUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -37,10 +58,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		058892F6F7C4A57214821DCA00CA0FDE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		058892F6F7C4A57214821DCA00CA0FDE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0A8FEA675DFAAA530EB2251880B89562 /* PSAUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PSAUI.modulemap; sourceTree = "<group>"; };
 		0B6A0F835AA7EFAE1B9A53AF63D93471 /* Pods-PSAUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSAUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0BFF1759979BD263FE60082AC7BBECEF /* PSAUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PSAUI.framework; path = PSAUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BFF1759979BD263FE60082AC7BBECEF /* PSAUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PSAUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13DE550C9F40B4BE52A4D849B05E771E /* PSAUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSAUI-umbrella.h"; sourceTree = "<group>"; };
 		182AAF1E55B0DD0D2D796F1EAE19F4A8 /* Pods-PSAUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSAUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1D2AFE468D78E332BD0A5A0BEA560B98 /* Pods-PSAUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSAUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -51,27 +72,48 @@
 		2D786B5793FA3AF1466B7CE0B3741B17 /* Pods-PSAUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSAUI_Example-dummy.m"; sourceTree = "<group>"; };
 		33731FB6F30720F9FC6F4F0ED40E48F4 /* Pods-PSAUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSAUI_Example.modulemap"; sourceTree = "<group>"; };
 		34ACFFC610BBE0CD22E99439A53E5311 /* PSAUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSAUI-prefix.pch"; sourceTree = "<group>"; };
-		35F1303C1EDFFDEFF3CE9A6B117C30D8 /* Pods_PSAUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PSAUI_Example.framework; path = "Pods-PSAUI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35F1303C1EDFFDEFF3CE9A6B117C30D8 /* Pods_PSAUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSAUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54E039D4F8D697F5D1A3469F47698997 /* Pods-PSAUI_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSAUI_Tests-resources.sh"; sourceTree = "<group>"; };
-		569B2F340831C1B1DD0367D8A3256395 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = PSAUI/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		59827322C8050F97712FB266E20389C2 /* Pods-PSAUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSAUI_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7B1C087BD89597A41B49CF385B737DAB /* Pods-PSAUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSAUI_Example-frameworks.sh"; sourceTree = "<group>"; };
 		826822AE4CCF1D959960F8B23D098919 /* Pods-PSAUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSAUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8C0C10552DAF83CB71C7F11C2EE867EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9074C11E16C66E60BD2FE535ABC218B6 /* Pods-PSAUI_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSAUI_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95899C1322259AAE00C9FE9D /* PSAKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PSAKeyboard.xib; path = PSAUI/Classes/PSAKeyboard.xib; sourceTree = "<group>"; };
+		95899C1422259AAE00C9FE9D /* PSAKeyboardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAKeyboardButton.h; path = PSAUI/Classes/PSAKeyboardButton.h; sourceTree = "<group>"; };
+		95899C1522259AAF00C9FE9D /* PSAKeyboardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSAKeyboardButton.m; path = PSAUI/Classes/PSAKeyboardButton.m; sourceTree = "<group>"; };
+		95899C1622259AAF00C9FE9D /* PSAPinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSAPinViewController.m; path = PSAUI/Classes/PSAPinViewController.m; sourceTree = "<group>"; };
+		95899C1722259AAF00C9FE9D /* PSASecurityProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSASecurityProtocol.h; path = PSAUI/Classes/PSASecurityProtocol.h; sourceTree = "<group>"; };
+		95899C1822259AAF00C9FE9D /* PSACommitAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSACommitAuthViewController.m; path = PSAUI/Classes/PSACommitAuthViewController.m; sourceTree = "<group>"; };
+		95899C1922259AAF00C9FE9D /* PSAAuthButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAAuthButton.h; path = PSAUI/Classes/PSAAuthButton.h; sourceTree = "<group>"; };
+		95899C1A22259AAF00C9FE9D /* PSAAuthInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAAuthInfo.h; path = PSAUI/Classes/PSAAuthInfo.h; sourceTree = "<group>"; };
+		95899C1B22259AAF00C9FE9D /* PSAAuthInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSAAuthInfo.m; path = PSAUI/Classes/PSAAuthInfo.m; sourceTree = "<group>"; };
+		95899C1C22259AAF00C9FE9D /* PSAKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAKeyboard.h; path = PSAUI/Classes/PSAKeyboard.h; sourceTree = "<group>"; };
+		95899C1D22259AAF00C9FE9D /* PSAAuthViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PSAAuthViewController.storyboard; path = PSAUI/Classes/PSAAuthViewController.storyboard; sourceTree = "<group>"; };
+		95899C1E22259AAF00C9FE9D /* PSAEnrollmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSAEnrollmentViewController.m; path = PSAUI/Classes/PSAEnrollmentViewController.m; sourceTree = "<group>"; };
+		95899C1F22259AAF00C9FE9D /* PSACommitAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSACommitAuthViewController.h; path = PSAUI/Classes/PSACommitAuthViewController.h; sourceTree = "<group>"; };
+		95899C2022259AAF00C9FE9D /* PSAPinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAPinViewController.h; path = PSAUI/Classes/PSAPinViewController.h; sourceTree = "<group>"; };
+		95899C2122259AAF00C9FE9D /* PSAEnrollmentViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = PSAEnrollmentViewController.storyboard; path = PSAUI/Classes/PSAEnrollmentViewController.storyboard; sourceTree = "<group>"; };
+		95899C2222259AAF00C9FE9D /* PSAXIBControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAXIBControl.h; path = PSAUI/Classes/PSAXIBControl.h; sourceTree = "<group>"; };
+		95899C2322259AAF00C9FE9D /* PSAXIBControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSAXIBControl.m; path = PSAUI/Classes/PSAXIBControl.m; sourceTree = "<group>"; };
+		95899C2422259AAF00C9FE9D /* PSAEnrollmentControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAEnrollmentControllerDelegate.h; path = PSAUI/Classes/PSAEnrollmentControllerDelegate.h; sourceTree = "<group>"; };
+		95899C2522259AAF00C9FE9D /* PSAEnrollmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSAEnrollmentViewController.h; path = PSAUI/Classes/PSAEnrollmentViewController.h; sourceTree = "<group>"; };
+		95899C2622259AAF00C9FE9D /* PSAAuthInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PSAAuthInfo.xib; path = PSAUI/Classes/PSAAuthInfo.xib; sourceTree = "<group>"; };
+		95899C2722259AAF00C9FE9D /* PSAAuthButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSAAuthButton.m; path = PSAUI/Classes/PSAAuthButton.m; sourceTree = "<group>"; };
+		95899C2822259AB000C9FE9D /* PSAKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSAKeyboard.m; path = PSAUI/Classes/PSAKeyboard.m; sourceTree = "<group>"; };
 		9BE575303B8D7A83CCC0EF4FABBC473B /* Pods-PSAUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSAUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9E5981BE43B4462B5E40525DB631A280 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A39C655747C3AB838951D7FB9A9A923B /* Pods-PSAUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSAUI_Tests-dummy.m"; sourceTree = "<group>"; };
-		A99C98631CD97491F91292A8DA14D1A2 /* Pods_PSAUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PSAUI_Tests.framework; path = "Pods-PSAUI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99C98631CD97491F91292A8DA14D1A2 /* Pods_PSAUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSAUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F25B93DA77BEDAE1FA1B1C3638826F /* Pods-PSAUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSAUI_Tests.modulemap"; sourceTree = "<group>"; };
-		BCCB9A29D028F0C5F86CF48CE2585866 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BCCB9A29D028F0C5F86CF48CE2585866 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D02CF382303252A78162BB297D4947BF /* PSAUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSAUI.xcconfig; sourceTree = "<group>"; };
 		D819F2A7F2FD4E8FB8F772AE372D7F35 /* Pods-PSAUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSAUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DA1137BBBD3FF7D6D7D61B2579215A27 /* Pods-PSAUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSAUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EB83227D79F6A480C08EAAAB7852E6D2 /* Pods-PSAUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSAUI_Example-umbrella.h"; sourceTree = "<group>"; };
-		FE0DCEF79893F2E39A36270E9D671B6C /* PSAUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PSAUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FE0DCEF79893F2E39A36270E9D671B6C /* PSAUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PSAUI.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +196,28 @@
 		6214E8642D7A712706A9077F8252C710 /* PSAUI */ = {
 			isa = PBXGroup;
 			children = (
-				569B2F340831C1B1DD0367D8A3256395 /* ReplaceMe.m */,
+				95899C1922259AAF00C9FE9D /* PSAAuthButton.h */,
+				95899C2722259AAF00C9FE9D /* PSAAuthButton.m */,
+				95899C1A22259AAF00C9FE9D /* PSAAuthInfo.h */,
+				95899C1B22259AAF00C9FE9D /* PSAAuthInfo.m */,
+				95899C2622259AAF00C9FE9D /* PSAAuthInfo.xib */,
+				95899C1D22259AAF00C9FE9D /* PSAAuthViewController.storyboard */,
+				95899C1F22259AAF00C9FE9D /* PSACommitAuthViewController.h */,
+				95899C1822259AAF00C9FE9D /* PSACommitAuthViewController.m */,
+				95899C2422259AAF00C9FE9D /* PSAEnrollmentControllerDelegate.h */,
+				95899C2522259AAF00C9FE9D /* PSAEnrollmentViewController.h */,
+				95899C1E22259AAF00C9FE9D /* PSAEnrollmentViewController.m */,
+				95899C2122259AAF00C9FE9D /* PSAEnrollmentViewController.storyboard */,
+				95899C1C22259AAF00C9FE9D /* PSAKeyboard.h */,
+				95899C2822259AB000C9FE9D /* PSAKeyboard.m */,
+				95899C1322259AAE00C9FE9D /* PSAKeyboard.xib */,
+				95899C1422259AAE00C9FE9D /* PSAKeyboardButton.h */,
+				95899C1522259AAF00C9FE9D /* PSAKeyboardButton.m */,
+				95899C2022259AAF00C9FE9D /* PSAPinViewController.h */,
+				95899C1622259AAF00C9FE9D /* PSAPinViewController.m */,
+				95899C1722259AAF00C9FE9D /* PSASecurityProtocol.h */,
+				95899C2222259AAF00C9FE9D /* PSAXIBControl.h */,
+				95899C2322259AAF00C9FE9D /* PSAXIBControl.m */,
 				F16CD9BE31B7AA020472D652428CC64B /* Pod */,
 				14C95EC2E5C82C45289C3404378B6F72 /* Support Files */,
 			);
@@ -242,7 +305,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95899C2A22259AB000C9FE9D /* PSAKeyboardButton.h in Headers */,
 				698A82C627861248E448945E26062602 /* PSAUI-umbrella.h in Headers */,
+				95899C3A22259AB000C9FE9D /* PSAEnrollmentControllerDelegate.h in Headers */,
+				95899C2D22259AB000C9FE9D /* PSASecurityProtocol.h in Headers */,
+				95899C3822259AB000C9FE9D /* PSAXIBControl.h in Headers */,
+				95899C2F22259AB000C9FE9D /* PSAAuthButton.h in Headers */,
+				95899C3522259AB000C9FE9D /* PSACommitAuthViewController.h in Headers */,
+				95899C3222259AB000C9FE9D /* PSAKeyboard.h in Headers */,
+				95899C3B22259AB000C9FE9D /* PSAEnrollmentViewController.h in Headers */,
+				95899C3622259AB000C9FE9D /* PSAPinViewController.h in Headers */,
+				95899C3022259AB000C9FE9D /* PSAAuthInfo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +433,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95899C3322259AB000C9FE9D /* PSAAuthViewController.storyboard in Resources */,
+				95899C3722259AB000C9FE9D /* PSAEnrollmentViewController.storyboard in Resources */,
+				95899C3C22259AB000C9FE9D /* PSAAuthInfo.xib in Resources */,
+				95899C2922259AB000C9FE9D /* PSAKeyboard.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +456,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6314579E087261B9833AED8FBF35C54 /* PSAUI-dummy.m in Sources */,
-				D3E3539CEF6AE07837DC93386DF4DE3F /* ReplaceMe.m in Sources */,
+				95899C3E22259AB000C9FE9D /* PSAKeyboard.m in Sources */,
+				95899C3922259AB000C9FE9D /* PSAXIBControl.m in Sources */,
+				95899C2B22259AB000C9FE9D /* PSAKeyboardButton.m in Sources */,
+				95899C2E22259AB000C9FE9D /* PSACommitAuthViewController.m in Sources */,
+				95899C3D22259AB000C9FE9D /* PSAAuthButton.m in Sources */,
+				95899C3422259AB000C9FE9D /* PSAEnrollmentViewController.m in Sources */,
+				95899C2C22259AB000C9FE9D /* PSAPinViewController.m in Sources */,
+				95899C3122259AB000C9FE9D /* PSAAuthInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
