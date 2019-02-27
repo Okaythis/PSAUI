@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol PSAEnrollmentControllerDelegate <PSABaseClientActionControllerDelegate>
+@protocol PSAEnrollmentControllerDelegate
 - (void)viewWillAppearWith:(id<PSABaseClientActionControllerDelegate>)delegate;
 @end
 

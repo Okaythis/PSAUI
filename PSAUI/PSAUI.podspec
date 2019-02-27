@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'PSAUI'
-s.version          = '0.1.2'
+s.version          = '0.1.2.1'
 s.summary          = 'User Interface for PSA framework'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,7 @@ s.dependency 'PSACommon'
      'Pod/Classes/**/*.{xib,storyboard}',
      'PSAUI/PSAUI/Classes/**/*.{xib,storyboard}']
  }
-s.public_header_files = 'PSAUI/PSAUI/Classes/**/*'
+ s.public_header_files = 'PSAUI/PSAUI/Classes/**/*.{h}'
 s.frameworks = 'UIKit'
 # s.dependency 'AFNetworking', '~> 2.3'
 end
