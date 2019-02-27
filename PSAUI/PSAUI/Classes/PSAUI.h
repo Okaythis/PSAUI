@@ -16,7 +16,6 @@ FOUNDATION_EXPORT const unsigned char PSAUIVersionString[];
 
 #import "PSAEnrollmentViewController.h"
 #import "PSASecurityProtocol.h"
-#import "PSAEnrollmentControllerDelegate.h"
 #import "PSACommitAuthViewController.h"
 #import "PSAPinViewController.h"
 
