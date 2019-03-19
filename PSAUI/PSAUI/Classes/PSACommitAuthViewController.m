@@ -1,6 +1,6 @@
 //
 //  PSACommitAuthViewController.m
-//  PSA
+//  PSAUI
 //
 //  Created by Pivulski, Nikolai on 05.07.2018.
 //

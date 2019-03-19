@@ -1,6 +1,6 @@
 //
 //  SecurityProtocol.h
-//  PSA
+//  PSAUI
 //
 //  Created by Bulat, Maksim on 10/01/2019.
 //

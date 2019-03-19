@@ -18,7 +18,7 @@
         <!--Commit Auth View Controller-->
         <scene sceneID="MNe-mh-62i">
             <objects>
-                <viewController storyboardIdentifier="PSACommitAuthViewController" modalTransitionStyle="crossDissolve" id="cYb-Xi-p0J" customClass="PSACommitAuthViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PSACommitAuthViewController" modalTransitionStyle="crossDissolve" id="cYb-Xi-p0J" customClass="PSACommitAuthViewController" customModule="PSAUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RkU-4G-nmI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -139,7 +139,7 @@
         <!--Pin View Controller-->
         <scene sceneID="bUT-hG-7hv">
             <objects>
-                <viewController storyboardIdentifier="PSAPinViewController" id="DVe-aD-x9D" customClass="PSAPinViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PSAPinViewController" id="DVe-aD-x9D" customClass="PSAPinViewController" customModule="PSAUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Iva-yh-XMX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -307,7 +307,7 @@
         <!--Auth View Controller-->
         <scene sceneID="Te5-yq-Cxd">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" id="ApX-IJ-vJk" customClass="PSAAuthViewController" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" id="ApX-IJ-vJk" customClass="PSAAuthViewController" customModule="PSAUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xdF-vY-hMX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

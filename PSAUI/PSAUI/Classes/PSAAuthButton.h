@@ -1,6 +1,6 @@
 //
 //  PSAAuthButton.h
-//  PSA
+//  PSAUI
 //
 //  Created by Pivulski, Nikolai on 07.07.2018.
 //

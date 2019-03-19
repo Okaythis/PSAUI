@@ -1,6 +1,6 @@
 //
 //  PinViewController.m
-//  PSA
+//  PSAUI
 //
 //  Created by Sadovsky, Aleksandr on 8/28/18.
 //

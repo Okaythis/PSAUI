@@ -1,6 +1,0 @@
-framework module PSAUI {
-  umbrella header "PSAUI-umbrella.h"
-
-  export *
-  module * { export * }
-}

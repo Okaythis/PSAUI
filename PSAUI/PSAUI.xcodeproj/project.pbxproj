@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9F19605329EACA68BD3928A /* libPods-PSAUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A257C8FD7D5C87E2969FD7 /* libPods-PSAUI.a */; };
+		F3FC2CAA22391EB8008CEF21 /* PSAUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FC2CA822391EB8008CEF21 /* PSAUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3FC2CB222391F7A008CEF21 /* PSAAuthButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FC2CB122391F7A008CEF21 /* PSAAuthButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3FC2CB422391FA6008CEF21 /* PSAAuthButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FC2CB322391FA6008CEF21 /* PSAAuthButton.m */; };
+		F3FC2CB8223920D5008CEF21 /* PSAAuthInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FC2CB5223920D4008CEF21 /* PSAAuthInfo.m */; };
+		F3FC2CB9223920D5008CEF21 /* PSAAuthInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3FC2CB6223920D4008CEF21 /* PSAAuthInfo.xib */; };
+		F3FC2CBA223920D5008CEF21 /* PSAAuthInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FC2CB7223920D4008CEF21 /* PSAAuthInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3FC2CBC22392152008CEF21 /* PSAAuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FC2CBB22392151008CEF21 /* PSAAuthViewController.storyboard */; };
+		F3FC2CBF223921C5008CEF21 /* PSACommitAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FC2CBD223921C5008CEF21 /* PSACommitAuthViewController.m */; };
+		F3FC2CC0223921C5008CEF21 /* PSACommitAuthViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FC2CBE223921C5008CEF21 /* PSACommitAuthViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3FC2CC722392278008CEF21 /* PSAKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FC2CC122392277008CEF21 /* PSAKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3FC2CC822392278008CEF21 /* PSAEnrollmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FC2CC222392277008CEF21 /* PSAEnrollmentViewController.m */; };
+		F3FC2CC922392278008CEF21 /* PSAKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FC2CC322392277008CEF21 /* PSAKeyboard.m */; };
+		F3FC2CCA22392278008CEF21 /* PSAEnrollmentViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FC2CC422392277008CEF21 /* PSAEnrollmentViewController.storyboard */; };
+		F3FC2CCB22392278008CEF21 /* PSAEnrollmentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FC2CC522392278008CEF21 /* PSAEnrollmentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3FC2CCC22392278008CEF21 /* PSAKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3FC2CC622392278008CEF21 /* PSAKeyboard.xib */; };
+		F3FC2CCF223922D3008CEF21 /* PSAKeyboardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FC2CCD223922D2008CEF21 /* PSAKeyboardButton.m */; };
+		F3FC2CD0223922D3008CEF21 /* PSAKeyboardButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FC2CCE223922D3008CEF21 /* PSAKeyboardButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3FC2CD322392340008CEF21 /* PSAPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FC2CD122392340008CEF21 /* PSAPinViewController.m */; };
+		F3FC2CD422392340008CEF21 /* PSAPinViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FC2CD222392340008CEF21 /* PSAPinViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3FC2CD622392395008CEF21 /* PSASecurityProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FC2CD522392395008CEF21 /* PSASecurityProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3FC2CD922392409008CEF21 /* PSAXIBControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FC2CD722392408008CEF21 /* PSAXIBControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3FC2CDA22392409008CEF21 /* PSAXIBControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FC2CD822392408008CEF21 /* PSAXIBControl.m */; };
+		F3FC2D082239307D008CEF21 /* PSACommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FC2D072239307D008CEF21 /* PSACommon.framework */; };
+		F3FC2D112239506E008CEF21 /* PSAAuthViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FC2D0F2239506E008CEF21 /* PSAAuthViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3FC2D122239506E008CEF21 /* PSAAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FC2D102239506E008CEF21 /* PSAAuthViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06A257C8FD7D5C87E2969FD7 /* libPods-PSAUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PSAUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		506D5D102B736774906B7BA6 /* Pods-PSAUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSAUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-PSAUI/Pods-PSAUI.release.xcconfig"; sourceTree = "<group>"; };
+		9CE218ED8208F8787402CEF5 /* Pods-PSAUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSAUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PSAUI/Pods-PSAUI.debug.xcconfig"; sourceTree = "<group>"; };
+		F3FC2CA522391EB8008CEF21 /* PSAUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PSAUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FC2CA822391EB8008CEF21 /* PSAUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAUI.h; sourceTree = "<group>"; };
+		F3FC2CA922391EB8008CEF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3FC2CB122391F7A008CEF21 /* PSAAuthButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAAuthButton.h; sourceTree = "<group>"; };
+		F3FC2CB322391FA6008CEF21 /* PSAAuthButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSAAuthButton.m; sourceTree = "<group>"; };
+		F3FC2CB5223920D4008CEF21 /* PSAAuthInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAAuthInfo.m; sourceTree = "<group>"; };
+		F3FC2CB6223920D4008CEF21 /* PSAAuthInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAAuthInfo.xib; sourceTree = "<group>"; };
+		F3FC2CB7223920D4008CEF21 /* PSAAuthInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAAuthInfo.h; sourceTree = "<group>"; };
+		F3FC2CBB22392151008CEF21 /* PSAAuthViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PSAAuthViewController.storyboard; sourceTree = "<group>"; };
+		F3FC2CBD223921C5008CEF21 /* PSACommitAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSACommitAuthViewController.m; sourceTree = "<group>"; };
+		F3FC2CBE223921C5008CEF21 /* PSACommitAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSACommitAuthViewController.h; sourceTree = "<group>"; };
+		F3FC2CC122392277008CEF21 /* PSAKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAKeyboard.h; sourceTree = "<group>"; };
+		F3FC2CC222392277008CEF21 /* PSAEnrollmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAEnrollmentViewController.m; sourceTree = "<group>"; };
+		F3FC2CC322392277008CEF21 /* PSAKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAKeyboard.m; sourceTree = "<group>"; };
+		F3FC2CC422392277008CEF21 /* PSAEnrollmentViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PSAEnrollmentViewController.storyboard; sourceTree = "<group>"; };
+		F3FC2CC522392278008CEF21 /* PSAEnrollmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAEnrollmentViewController.h; sourceTree = "<group>"; };
+		F3FC2CC622392278008CEF21 /* PSAKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSAKeyboard.xib; sourceTree = "<group>"; };
+		F3FC2CCD223922D2008CEF21 /* PSAKeyboardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAKeyboardButton.m; sourceTree = "<group>"; };
+		F3FC2CCE223922D3008CEF21 /* PSAKeyboardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAKeyboardButton.h; sourceTree = "<group>"; };
+		F3FC2CD122392340008CEF21 /* PSAPinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAPinViewController.m; sourceTree = "<group>"; };
+		F3FC2CD222392340008CEF21 /* PSAPinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAPinViewController.h; sourceTree = "<group>"; };
+		F3FC2CD522392395008CEF21 /* PSASecurityProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSASecurityProtocol.h; sourceTree = "<group>"; };
+		F3FC2CD722392408008CEF21 /* PSAXIBControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAXIBControl.h; sourceTree = "<group>"; };
+		F3FC2CD822392408008CEF21 /* PSAXIBControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAXIBControl.m; sourceTree = "<group>"; };
+		F3FC2D072239307D008CEF21 /* PSACommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PSACommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FC2D0F2239506E008CEF21 /* PSAAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSAAuthViewController.h; sourceTree = "<group>"; };
+		F3FC2D102239506E008CEF21 /* PSAAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSAAuthViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3FC2CA222391EB8008CEF21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FC2D082239307D008CEF21 /* PSACommon.framework in Frameworks */,
+				C9F19605329EACA68BD3928A /* libPods-PSAUI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA68F0EAEAC56BC1F53517D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CE218ED8208F8787402CEF5 /* Pods-PSAUI.debug.xcconfig */,
+				506D5D102B736774906B7BA6 /* Pods-PSAUI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3FC2C9B22391EB8008CEF21 = {
+			isa = PBXGroup;
+			children = (
+				F3FC2CA722391EB8008CEF21 /* PSAUI */,
+				F3FC2CA622391EB8008CEF21 /* Products */,
+				F3FC2D062239307D008CEF21 /* Frameworks */,
+				CA68F0EAEAC56BC1F53517D4 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F3FC2CA622391EB8008CEF21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3FC2CA522391EB8008CEF21 /* PSAUI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3FC2CA722391EB8008CEF21 /* PSAUI */ = {
+			isa = PBXGroup;
+			children = (
+				F3FC2CB022391F54008CEF21 /* Classes */,
+				F3FC2CA822391EB8008CEF21 /* PSAUI.h */,
+				F3FC2CA922391EB8008CEF21 /* Info.plist */,
+			);
+			path = PSAUI;
+			sourceTree = "<group>";
+		};
+		F3FC2CB022391F54008CEF21 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F3FC2D0F2239506E008CEF21 /* PSAAuthViewController.h */,
+				F3FC2D102239506E008CEF21 /* PSAAuthViewController.m */,
+				F3FC2CD722392408008CEF21 /* PSAXIBControl.h */,
+				F3FC2CD822392408008CEF21 /* PSAXIBControl.m */,
+				F3FC2CD522392395008CEF21 /* PSASecurityProtocol.h */,
+				F3FC2CD222392340008CEF21 /* PSAPinViewController.h */,
+				F3FC2CD122392340008CEF21 /* PSAPinViewController.m */,
+				F3FC2CCE223922D3008CEF21 /* PSAKeyboardButton.h */,
+				F3FC2CCD223922D2008CEF21 /* PSAKeyboardButton.m */,
+				F3FC2CC522392278008CEF21 /* PSAEnrollmentViewController.h */,
+				F3FC2CC222392277008CEF21 /* PSAEnrollmentViewController.m */,
+				F3FC2CC422392277008CEF21 /* PSAEnrollmentViewController.storyboard */,
+				F3FC2CC122392277008CEF21 /* PSAKeyboard.h */,
+				F3FC2CC322392277008CEF21 /* PSAKeyboard.m */,
+				F3FC2CC622392278008CEF21 /* PSAKeyboard.xib */,
+				F3FC2CBE223921C5008CEF21 /* PSACommitAuthViewController.h */,
+				F3FC2CBD223921C5008CEF21 /* PSACommitAuthViewController.m */,
+				F3FC2CBB22392151008CEF21 /* PSAAuthViewController.storyboard */,
+				F3FC2CB7223920D4008CEF21 /* PSAAuthInfo.h */,
+				F3FC2CB5223920D4008CEF21 /* PSAAuthInfo.m */,
+				F3FC2CB6223920D4008CEF21 /* PSAAuthInfo.xib */,
+				F3FC2CB122391F7A008CEF21 /* PSAAuthButton.h */,
+				F3FC2CB322391FA6008CEF21 /* PSAAuthButton.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F3FC2D062239307D008CEF21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3FC2D072239307D008CEF21 /* PSACommon.framework */,
+				06A257C8FD7D5C87E2969FD7 /* libPods-PSAUI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F3FC2CA022391EB8008CEF21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FC2CCB22392278008CEF21 /* PSAEnrollmentViewController.h in Headers */,
+				F3FC2CC722392278008CEF21 /* PSAKeyboard.h in Headers */,
+				F3FC2CD0223922D3008CEF21 /* PSAKeyboardButton.h in Headers */,
+				F3FC2CAA22391EB8008CEF21 /* PSAUI.h in Headers */,
+				F3FC2CC0223921C5008CEF21 /* PSACommitAuthViewController.h in Headers */,
+				F3FC2CBA223920D5008CEF21 /* PSAAuthInfo.h in Headers */,
+				F3FC2CD422392340008CEF21 /* PSAPinViewController.h in Headers */,
+				F3FC2D112239506E008CEF21 /* PSAAuthViewController.h in Headers */,
+				F3FC2CB222391F7A008CEF21 /* PSAAuthButton.h in Headers */,
+				F3FC2CD622392395008CEF21 /* PSASecurityProtocol.h in Headers */,
+				F3FC2CD922392409008CEF21 /* PSAXIBControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F3FC2CA422391EB8008CEF21 /* PSAUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3FC2CAD22391EB8008CEF21 /* Build configuration list for PBXNativeTarget "PSAUI" */;
+			buildPhases = (
+				67CDAC1F2E26CC8A7749A968 /* [CP] Check Pods Manifest.lock */,
+				F3FC2CA022391EB8008CEF21 /* Headers */,
+				F3FC2CA122391EB8008CEF21 /* Sources */,
+				F3FC2CA222391EB8008CEF21 /* Frameworks */,
+				F3FC2CA322391EB8008CEF21 /* Resources */,
+				F4FBABF16BF9C8CC58CEECC8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSAUI;
+			productName = PSAUI;
+			productReference = F3FC2CA522391EB8008CEF21 /* PSAUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3FC2C9C22391EB8008CEF21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Test;
+				TargetAttributes = {
+					F3FC2CA422391EB8008CEF21 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F3FC2C9F22391EB8008CEF21 /* Build configuration list for PBXProject "PSAUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F3FC2C9B22391EB8008CEF21;
+			productRefGroup = F3FC2CA622391EB8008CEF21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3FC2CA422391EB8008CEF21 /* PSAUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3FC2CA322391EB8008CEF21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FC2CBC22392152008CEF21 /* PSAAuthViewController.storyboard in Resources */,
+				F3FC2CCC22392278008CEF21 /* PSAKeyboard.xib in Resources */,
+				F3FC2CCA22392278008CEF21 /* PSAEnrollmentViewController.storyboard in Resources */,
+				F3FC2CB9223920D5008CEF21 /* PSAAuthInfo.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67CDAC1F2E26CC8A7749A968 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PSAUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4FBABF16BF9C8CC58CEECC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PSAUI/Pods-PSAUI-resources.sh",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SAMKeychain.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PSAUI/Pods-PSAUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3FC2CA122391EB8008CEF21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3FC2CC922392278008CEF21 /* PSAKeyboard.m in Sources */,
+				F3FC2D122239506E008CEF21 /* PSAAuthViewController.m in Sources */,
+				F3FC2CB8223920D5008CEF21 /* PSAAuthInfo.m in Sources */,
+				F3FC2CDA22392409008CEF21 /* PSAXIBControl.m in Sources */,
+				F3FC2CBF223921C5008CEF21 /* PSACommitAuthViewController.m in Sources */,
+				F3FC2CCF223922D3008CEF21 /* PSAKeyboardButton.m in Sources */,
+				F3FC2CB422391FA6008CEF21 /* PSAAuthButton.m in Sources */,
+				F3FC2CD322392340008CEF21 /* PSAPinViewController.m in Sources */,
+				F3FC2CC822392278008CEF21 /* PSAEnrollmentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F3FC2CAB22391EB8008CEF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3FC2CAC22391EB8008CEF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3FC2CAE22391EB8008CEF21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CE218ED8208F8787402CEF5 /* Pods-PSAUI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NCJC54GM5Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PSAUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.protectoria.PSAUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3FC2CAF22391EB8008CEF21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 506D5D102B736774906B7BA6 /* Pods-PSAUI.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NCJC54GM5Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PSAUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.protectoria.PSAUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3FC2C9F22391EB8008CEF21 /* Build configuration list for PBXProject "PSAUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FC2CAB22391EB8008CEF21 /* Debug */,
+				F3FC2CAC22391EB8008CEF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3FC2CAD22391EB8008CEF21 /* Build configuration list for PBXNativeTarget "PSAUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3FC2CAE22391EB8008CEF21 /* Debug */,
+				F3FC2CAF22391EB8008CEF21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3FC2C9C22391EB8008CEF21 /* Project object */;
+}
